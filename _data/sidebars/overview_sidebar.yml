@@ -177,8 +177,8 @@ entries:
       url: /engage_reginald_perrin.html
       output: web, pdf
       type: homepage
-    - title: Agatha Crtichard
-      url: /engage_agatha crtichard.html
+    - title: Agatha Critchard
+      url: /engage_agatha_critchard.html
       output: web, pdf
       type: homepage
     - title: Mary Jones

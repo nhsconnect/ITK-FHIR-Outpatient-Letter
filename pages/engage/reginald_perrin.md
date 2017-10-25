@@ -3,7 +3,7 @@ title: Richard Smith Discharge Summary Scenario
 keywords: workflow
 tags: [development,fhir,profiles]
 sidebar: overview_sidebar
-permalink: engage_richard_smith.html
+permalink: engage_reginald_perrin.html
 summary: "Example scenario - Richard Smith Discharge Summary"
 ---
 
