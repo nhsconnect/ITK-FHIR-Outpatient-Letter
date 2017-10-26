@@ -66,7 +66,7 @@ Note: the examples of section html in this specification show only example html 
 This diagram illustrates the sections used in Outpatient letter and which sections allow coded representation of the section text. 
 
 
-<img src="images/explore/eDIS_composition_overview.png" style="height:90%;max-height: 90%;"/>
+<img src="images/explore/OPL_composition_overview.png" style="height:90%;max-height: 90%;"/>
 
 
 
@@ -76,5 +76,3 @@ This is profiled as the [ITK-EDIS-Compostion](https://fhir.nhs.uk/STU3/Structure
 
 {% include custom/section.warnbanner.html %}
 
-
-{% include custom/messaging_overview.svg %}

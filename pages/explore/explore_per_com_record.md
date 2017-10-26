@@ -12,11 +12,14 @@ summary: "Gives information about the Person completing record section"
 ## Person Completing Record Section Content##
 The Person completing record section carries information about the person who completed the record. Items in bold are subheadings and should be formatted as such in any html sent:
 
-- **Name** 
-- **Designation or role**
-- **Grade**
-- **Specialty**
-- **Date completed**
+- **Name** - The name of the person completing the record, preferably in a structured format.
+- **Role**- The role the person is playing within the organisation at the time record was updated.
+- **Grade** - The grade of the person completing the record
+- **Specialty** -The main specialty of the person completing the record.
+- **Professional identifier** - Professional identifier for the person completing the record e.g., GMC number, HCPC number etc or the personal identifier used by the local organisation.
+- **Date and time completed** -	The date and time the record was updated.
+- **Contact details** -	Contact details of the person completing the record. For example a phone number, email address. Contact details are used to resolve queries about the record entry.
+
 
 
 ## Example Person Completing Record Section ##

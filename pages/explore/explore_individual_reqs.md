@@ -12,13 +12,7 @@ summary: "Gives information about the Individual requirements section"
 ## Individual Requirements Content ##
 The Individual requirements section carries information about the individual requirements of the patient,items in bold are subheadings and should be formatted as such in any html sent:
 
-<ul><li>Individual requirements - Eg level of language (literacy); preferred language (interpreter required)/ambulance required/other transport arrangements required/any other special requirements.</li>
-Includes:
-<ul><li>preferred language</li>
-<li>interpreter required</li>
-<li>advocate required</li>
-<li>transport required, etc.</li>Individual
-</ul></ul>
+- **Individual requirement** - Individual requirements that a person has. These may be communication, cultural, cognitive or mobility needs. Information volunteered by the person or their representative or carer, or known about locally.
 
 ##  Example Individual Requirements Section ##
 
@@ -28,7 +22,11 @@ Includes:
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR Outpatient letter does not currently support coded individual requirements information.
+This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
+
+
+- [Observation(Accessible information,Mobility,Cognition)](build_observations.html)
+
 
 
 

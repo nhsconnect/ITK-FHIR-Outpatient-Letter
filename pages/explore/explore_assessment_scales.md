@@ -12,15 +12,7 @@ summary: "Gives information about the Assessment scales section"
 ## Assessment Scales Section Content##
 The Assessment scales section carries information about assessment scales used, items in bold are subheadings and should be formatted as such in any html sent:
 
-**Assessment scales** Assessment scales used,eg,
-
-- New York Heart Failure scale
-- Activities of Daily Living(ADL)
-- cognitive function, mood assessment scales
-- developmental scales
-- MUST (nutrition)
-- BPI (pain)
-
+**Assessment scale** - Assessment scale used, eg New York Heart Failure, Activities of Daily Living (ADL)
 
 
 ## Example Assessment Scales Section Example ##

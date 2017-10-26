@@ -12,7 +12,9 @@ summary: "Gives information about Investigation Results section"
 ## Investigation Results Section Content ##
 The Investigation results section carries information about investigation results for the patient, items in bold are subheadings and should be formatted as such in any html sent:
 
-- **Investigation results** The result of the investigation (this includes the result value, with unit of observation and reference interval where applicable and date), and plans for acting upon investigation results.
+- **Investigation** - The investigation performed.
+- **Investigation result** - For each investigation, the result of the investigation (this includes the result value, with unit of observation and reference interval where applicable and date, and plans for acting upon investigation results.
+
 
 ## Example Investigation Results Section ##
 

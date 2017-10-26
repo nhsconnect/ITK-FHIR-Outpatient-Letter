@@ -12,15 +12,11 @@ summary: "Gives information about the Participation in research section"
 ## Participation in Research Section Content##
 This is to flag participation in a clinical trial.Items in bold are subheadings and should be formatted as such in any html sent:
 
-- **Participation in research**
-
-This may include whether participation in a trial has been offered, refused or
-accepted, the name of the trial, drug/intervention tested, enrolment date, duration
-of treatment and follow up, and contact number for adverse events or queries. 
+- **Name of research study** - Name of the research study/trial. Drug/intervention.Name of the research trial actively engaged in and, if available, URL to trial. All other information will be sent to GP separately.
 
 ##  Example Participation in Research Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/9cd8f422a7c1e323ed42ac424a5830db.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/5974b2658252a6ac97c8fef6c2eb64bc.js"></script>
 
 ## Coded Resources ##
 

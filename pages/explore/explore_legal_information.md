@@ -10,40 +10,28 @@ summary: "Gives information about the Legal information section"
 {% include custom/section.warnbanner.html %}
 
 ## Legal Information Section Content ##
+The Legal information section carries information about legal information perinatal to the patient,items in bold are subheadings and should be formatted as such in any html sent:
 
-<ul><li><b>Consent for treatment record</b> - Whether consent has been obtained for the treatment. May include where record of record consent is located or record of consent.</li>
-<li><b>Mental capacity assessment</b> - Whether an assessment of the mental capacity of the (adult) patient has been undertaken, if so who carried it out, when and the outcome of the assessment. Also record best interests decision if patient lacks capacity.</li>
-<li><b>Advance decisions about treatment</b> - Three items:</li>
-<ol><li>whether there are written documents, completed and signed when a person is
-legally competent, that explain a person’s medical wishes in advance, allowing
-someone else to make treatment decisions on his or her behalf late in the disease
-process</li>
-<li>location of these documents</li>
-<li>may be copy of the document itself.</li></ol>
-<li><b>Lasting or enduring power of attorney or similar</b> - Record of individual involved in healthcare decision on behalf of the patient if the patient lacks capacity. This includes:</li>
-<ul><li>whether there is a person with lasting or enduring power of attorney, Independent Mental Capacity Advocate (IMCA), court appointed deputy</li>
-<li>name and contact details for person.</li>
-</ul>
-<li><b>Organ and tissue donation</b> - Two data items:</li>
-<ol><li>has the person given consent for organ and/or tissue donation (yes/no)?</li>
-<li>the location of the relevant information/documents.</li>
-</ol>
-<li><b>Consent relating to child</b> -  Consideration of age and competency, including Gillick competency.Record of person with parental responsibility or appointed guardian where child
-lacks competency.</li>
-<li><b>Consent to information sharing</b> - Record of consent to information sharing, including any restrictions on  sharing information with others, eg, family members, other healthcare professionals. Also use of identifiable information for research purposes.
-</li>
-<li><b>Safeguarding issues</b> - Any legal matters relating to safeguarding of a vulnerable child or adult, eg, child protection plan, child in need, protection of vulnerable adult.</li>
-</ul>
+- **Consent for information sharing** - This is a record of consent for information sharing. Where consent has been not been obtained or sought, the reason why must be provided. Include best interests decision where person lacks capacity.
+- **Consent relating to child**	- Consideration of age and competency. Record of person with parental responsibility or appointed guardian where child lacks competency.	
+- **Mental capacity assessment** -	Whether an assessment of the mental capacity of the (adult) person has been undertaken, if so, what capacity the decision relates to, who carried it out, when and the outcome of the assessment. Also record best interests decision if person lacks capacity.
+- **Deprivation of Liberty Safeguards or equivalent** -	Record of Deprivation of Liberty Safeguards (DoLS) or equivalent, including the reason for this.
+- **Mental Health Act or equivalent status** -	Record where a person diagnosed with a mental disorder is formally detained under the Mental Health Act or equivalent, including the section number and start date, start time and end date. If person subject to Community Treatment Order or Conditional Discharge (or equivalent) record here.
+- **Advance decision to refuse treatment (ADRT)**	A record of an advance decision to refuse one or more specific types of future treatment, made by a person who had capacity at the time of recording the decision. The decision only applies when the person no longer has the capacity to consent to or refuse the specific treatment being considered. An ADRT must be in writing, signed and witnessed. If the ADRT is refusing life-sustaining treatment it must state specifically that the treatment is refused even if the person’s life is at risk. Where available a copy of the ADRT may be appended to the record. Where there has been a change in the ADRT this should be noted in the record in free text.
+- **Lasting power of attorney  for personal welfare  or court-appointed deputy (or equivalent)**	- Record of one or more people who have been given power (LPA) by the person when they had capacity to make decisions about their health and welfare should they lose capacity to make those decisions. To be valid, an LPA must have been registered with the Court of Protection. If life-sustaining treatment is being considered the LPA document must state specifically that the attorney has been given power to consent to or refuse life-sustaining treatment. Details of any person (deputy) appointed by the court to make decisions about the person’s health and welfare. A deputy does not have the power to refuse life-sustaining treatment. The name of the LPA should be recorded. The authority of the LPA should be recorded as SNOMED CT codes (see National Information Standard (SCCI1580) and associated text. The contact details of the LPA should be recorded under the relevant contacts heading.
+- **Legal safeguarding issues**	Any legal matters relating to safeguarding of a vulnerable child or adult, e.g., child protection plan, protection of vulnerable adult.	
 
 ## Example Legal Information Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/407d219b7bcc5f70343690974d11e6b5.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/38688357710decd6e80bc597a9da54e2.js"></script>
 
 ## Coded Resources ##
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR Outpatient letter does not currently support a coded clinical summary.
+- [Contract(ADRT and LPOA)](build_observations.html)
+- [Observation(ADRT and LPOA)](build_observations)
+
 
 
 

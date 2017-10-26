@@ -18,7 +18,7 @@ summary: A brief introduction to getting started with the ITK Outpatient letter.
 
 The Transfer Of Care Outpatient letter  Specification supports the following care communications:
 
-**Outpatient letter (inpatient discharge summary) Document** – An ITK FHIR Document containing Transfer of Care information supporting an inpatient discharge typically between an acute hospital and GP practice.
+**Outpatient letter Document** – An ITK FHIR Document containing Transfer of Care information supporting between the hospital clinic and the GP and other relevant parties following a consultation in a clinic.
    
 FHIR Messaging components specified within this site have been developed by NHS Digital and use some of the CareConnect profiles created in collaboration with the INTEROPen community. 
 
@@ -38,18 +38,7 @@ This guide has been created to support the adoption of NHS Digital defined FHIR 
 
 The above steps outline a complete journey from imagination and exploring to developing local ITK Messaging Solutions using NHS Digital Messages, all the way to deploying a live ITK Messaging Solution.
 
-# ITK FHIR Outpatient letter Focus #
-
-The current site focuses on a typical FHIR ITK Messaging Solution Developer's Journey as highlighted by the green boxes below in the developer journey:
-
-<img src="images/roadmap/guide-focus.png" style="width:100%;max-width: 100%;">
 
 
-# Resource Roadmap #
 
-The [ITK Outpatient letter journey](overview_message_journey.html) outlines the development roadmap for FHIR Messaging using the ITK Outpatient letter outlined messaging within this site. Note: This roadmap would include components from other NHS Digital specifications for example ITK Outpatient letter message components, CareConnect profiles etc.
-
-<img src="images/roadmap/messaging_roadmap-online.png" style="width:100%;max-width: 100%;">
-
-The above roadmap illustrates the steps necessary to create, test and verify the messaging components as well as some of the supporting tooling which might be necessary to build to provide viable ITK Messaging Solutions. The roadmap is not intended to be complete but to promote discussion, extension and engagement from interested parties.
 

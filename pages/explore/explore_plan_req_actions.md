@@ -12,20 +12,25 @@ summary: "Gives information about the Plan and requested actions section"
 ## Plan and Requested Actions Content ##
 The Plan and requested actions section carries information about planned and requested actions such as planned investigations, procedures etc, items in bold are subheadings and should be formatted as such in any html sent:
 
-<ul><li><b>Actions</b> - Including planned investigations, procedures and treatment for a patient’s identified conditions and priorities:</li>
-<ul><li>person responsible - name and designation/department/hospital/patient/etc responsible for carrying out the proposed action, and where action should take place</li>
-<li>action – requested, planned or completed</li>
-<li>When action requested for – requested date, time, or period – as relevant</li>
-<li>suggested strategies – suggested strategies for potential problems, eg, telephone
-contact for advice.</li>
-</ul>
-<li><b>Agreed with patient or legitimate patient representative</b> - Indicates whether the patient or legitimate representative has agreed the entire plan or individual aspects of treatment, expected outcomes, risks and alternative treatments if any (yes/no).</li>
+- **Actions for healthcare professionals** - 	Including planned investigations, procedures and treatment for a patient’s identified conditions and priorities. For each action the following should be identified:
+	- person responsible - name and designation / department / hospital etc or role (eg GP) responsible for carrying out the proposed action, and where action should take place**
+	- status - requested, planned or completed
+	- When action requested for - requested date, time, or period - as relevant
+	- suggested strategies - suggested strategies for potential problems,
+	- outcome expectations, including patient’s expectations
+- **Actions for patient or their carer** - For each action the following should be identified:
+	- person responsible - name and designation eg patient or carer responsible for carrying out the proposed action, and where action should take place
+	- status - requested, planned or completed
+	- When action requested for - requested date, time, or period - as relevant
+	- suggested strategies - suggested strategies for potential problems, eg telephone contact for advice
+	- outcome expectations, including patient’s expectations.
+- **Agreed with patient or legitimate patient representative** - Indicates whether the patient or legitimate representative has agreed the entire plan or individual aspects of treatment, expected outcomes, risks and alternative treatments.
+- **Care planning arrangements** - Record if CPA (Care Programme Approach) documentation is available and how and where it can be accessed; care and treatment plan in Wales and Scotland. In Wales this is superseded by the Mental Health Measure 2010.
 
-</ul>
 
 ##  Example Plan and Requested Actions Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/1bdcde4481d7de7dfdf7bcc266529e10.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/e60a0b729371552cca12038570d52ca8.js"></script>
 
 ## Coded Resources ##
 

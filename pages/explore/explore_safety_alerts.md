@@ -12,8 +12,10 @@ summary: "Gives information about the Safety alerts section"
 ## Safety Alerts Section Content##
 The Safety alerts section carries safety alerts associated with the patient,items in bold are subheadings and should be formatted as such in any html sent:
 
-- **Risks to self** - Risks the patient poses to themself, eg, suicide, overdose, self-harm, self-neglect.
-- **Risks to others** - Risks to care professional or third party.
+- **Risks to self** - Risks the patient poses to themselves, e.g., suicide, overdose, self-harm, self-neglect.
+- **Risks to others** - Risks caring professionals or others.
+- **Risk from others** - Details of where an adult or child is at risk from an identified person e.g. family member etc.
+
 
 ##  Example Safety Alerts Section ##
 
@@ -23,6 +25,6 @@ The Safety alerts section carries safety alerts associated with the patient,item
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR Outpatient letter does not currently support a coded Referral details.
+- The ITK FHIR Outpatient letter does not currently support a coded safety alerts details.
 
 
