@@ -1,48 +1,37 @@
 ---
-title: Richard Smith Discharge Summary Scenario
+title: Reginald Perrin Outpatient Letter Scenario
 keywords: workflow
 tags: [development,fhir,profiles]
 sidebar: overview_sidebar
 permalink: engage_reginald_perrin.html
-summary: "Example scenario - Richard Smith Discharge Summary"
+summary: "Example scenario - Reginald Perrin Outpatient Letter"
 ---
 
 {% include custom/search.warnbanner.html %}
 
 ## Background ##
+Reginald attends an outpatient appointment at St Crispin’s Hospital having been previously referred by Michael McMonagle who is the Occupational Therapist at the Head Injury Team of St Crispin’s Hospital.Reginald was experiencing diplopia.
 
-Richard Smith aged 60, is at home and has been feeling unwell with chest pain. His wife speaks to Peter, a neighbour, who offers to take them to the local A & E department. On arrival at A & E Richard, with the aid of his wife checks in with the receptionist. The receptionist asks for his name, address and Date of Birth and does a PDS look-up to get his details. She confirms these are correct and checks Richard in on the A & E system. She then asks him to take a seat in the waiting area.
+## The Outpatient Encounter ##
 
-After a short wait, Richard starts to feel worse and his wife goes to speak to the receptionist, who asks a passing nurse to speak to Richard. Richard's wife explains that she is concerned about the possibility of Richard suffering from a heart attack,as his symptoms are similar to Richard's mother when she had a heart attack. The nurse feels that Richard needs to be seen urgently and asks him and his wife to follow her to the examination cubicle. After taking Richard's vital signs, the nurse explains that she will go and get a doctor to examine Richard, leaves the cubicle and returns with Doctor Amanda Smith. She also takes Richard's vital signs and does an ECG that shows inferior ischaemic changes. She explains that they are going to admit Richard onto a ward for further tests.
-
-## The Inpatient Stay ##
-
-The Inpatient stay is carried in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
+The Outpatient encounter carried in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
 
 ## Named Participants ##
 
-- Patient - **Richard Smith** - [Patient Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1)
-- Patient's wife - **Joy Smith** - [RelatedPerson Resource](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-RelatedPerson-1)
-- Consultant - **Mr Abacus** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
-- Discharging clinician (Document Author) - **Dr Paul Rastall** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
-- Patient's GP (Document recipient) - **Dr John Lorenzo** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
-- Community Nurse (Document recipient) - **Mrs Angela Jones** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
-
+- Patient - **Mr. Reginald Perrin** - [Patient Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1)
+- Orthoptist (Document author) - **Rupert Rigsby** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- Patient's GP (Document recipient) - **Dr  C. O’Reilly** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- Occupational Therapist (Document recipient and original referrer) - **Michael McMonagle** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
 ## Named Organisations ##
 
-- Patient's GP Practice - **MGP Medical Centre** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
-- Discharging Hospital - **Leeds Teaching Hospitals NHS Trust** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- Patient's GP Practice - **Canvas Health Centre** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
+- Hospital - **St Crispin’s Hospital** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
 
-Richard is admitted to the ward on the 12th Feb where, during triage, the nurse asks if he has any allergies and what medication he is on. Richard's wife has brought his medication with her so is able to show the nurse the medication. Richard tells the nurse he has an allergy to Penicillin which causes a rash. The nurse asks if he gets any swelling, to which Richard replies "no". Richard's Summary Care Record confirms what he told the nurse. Richard is given a TIMI assessment and a full blood test.
 
-During the course of his stay in hospital Richard is given another ECG. The coronary angiogram indicates a diseased RCA. Following consultation with Mr Abacus, the heart specialist, Richard consents to having an angioplasty procedure to place a drug eluting stent. The is done the next day and the procedure is successful.
+During the Outpatients encounter Robert diagnoses Reginald with Right hypertropia and fits a prism to his glasses to relieve it.
+He refers Reginald to an ophthalmologist. He also advises him to inform the DVLA regarding the diplopia and fresnel prism. 
 
-When Richard's wife visits him on the 15th he tells her that the consultant Mr Abacus says he can go home the following day once he has spoken to someone from the Cardiac Rehabilitation Team. The following day Richard has a Cardiac Rehabilitation consultation with Dr Paul Rastall during which he is given information regarding the diagnosis and possible life style changes when he is discharged. Richard is concerned about whether he can drive and asks about this as he is a self employed electrician. Dr Paul Rastall advises him that he should not to drive for at least a week, but reassures him that he should be able to drive once recovered and says he will arrange for a community follow-up.
-
-In the afternoon Dr Paul Rastall discharges Richard and completes and sends an Outpatient letter to Richard's GP and the community nurse at the practice where Richard is registered.
-
-Richard's wife arrives with their neighbour Peter, who has kindly agreed to pick him up from the hospital and take him home. 
 
 ## Example Instance of Scenario ##
 
-<script src="https://gist.github.com/IOPS-DEV/4c7978a769e995660c41c2c8479b9255.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/f137046205ee2da61ce36e24e19ca8fc.js"></script>

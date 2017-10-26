@@ -1,48 +1,39 @@
 ---
-title: Richard Smith Discharge Summary Scenario
+title: Agatha Critchard Outpatient Letter Scenario
 keywords: workflow
 tags: [development,fhir,profiles]
 sidebar: overview_sidebar
 permalink: engage_agatha_critchard.html
-summary: "Example scenario - Richard Smith Discharge Summary"
+summary: "Example scenario - Agatha Critchard Outpatient Letter"
 ---
 
 {% include custom/search.warnbanner.html %}
 
 ## Background ##
+Agatha attends an outpatient appointment at St Crispin’s Hospital having been previously referred by her GP. Agatha has ongoing symptoms of bloody diarrhoea, weight loss, and abdominal discomfort that are unresponsive to treatment.  She has a 2 month history of bloody diarrhoea. Her bowels open 5-6 per day with 1-2 nocturnal episodes. Agatha has experienced weight loss of 1 stone over the same period. She experiences a crampy left iliac fossa pain intermittently. She has no history of travel, unwell contacts or previous similar symptoms. She has longstanding mild dyspepsia for which she takes antacid as necessary. It has never been investigated. Agatha lives with her boyfriend and works as a Baker. She is an ex-smoker, stopped 2 years, and consumed 10-14 units of alcohol per week. Agatha has an allergic reaction to Amoxicillin, which presents as an urticarial rash in the form of a generalized severe rash. She first experienced a reaction aged 12 and has been told the probability of recurrence is likely.
 
-Richard Smith aged 60, is at home and has been feeling unwell with chest pain. His wife speaks to Peter, a neighbour, who offers to take them to the local A & E department. On arrival at A & E Richard, with the aid of his wife checks in with the receptionist. The receptionist asks for his name, address and Date of Birth and does a PDS look-up to get his details. She confirms these are correct and checks Richard in on the A & E system. She then asks him to take a seat in the waiting area.
+## The Outpatient Encounter ##
 
-After a short wait, Richard starts to feel worse and his wife goes to speak to the receptionist, who asks a passing nurse to speak to Richard. Richard's wife explains that she is concerned about the possibility of Richard suffering from a heart attack,as his symptoms are similar to Richard's mother when she had a heart attack. The nurse feels that Richard needs to be seen urgently and asks him and his wife to follow her to the examination cubicle. After taking Richard's vital signs, the nurse explains that she will go and get a doctor to examine Richard, leaves the cubicle and returns with Doctor Amanda Smith. She also takes Richard's vital signs and does an ECG that shows inferior ischaemic changes. She explains that they are going to admit Richard onto a ward for further tests.
-
-## The Inpatient Stay ##
-
-The Inpatient stay is carried in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
+The Outpatient encounter carried in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
 
 ## Named Participants ##
 
-- Patient - **Richard Smith** - [Patient Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1)
-- Patient's wife - **Joy Smith** - [RelatedPerson Resource](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-RelatedPerson-1)
-- Consultant - **Mr Abacus** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
-- Discharging clinician (Document Author) - **Dr Paul Rastall** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
-- Patient's GP (Document recipient) - **Dr John Lorenzo** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
-- Community Nurse (Document recipient) - **Mrs Angela Jones** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- Patient - **Ms. Agatha Crtichard** - [Patient Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1)
+- Consultant Gastroenterologist (Document author) - **Dr. Ruth Jones** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- IBD specialist nurse - **Mrs. N Bryant** - - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- Patient's GP (Document recipient) - **Dr  C. O’Reilly** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
 
 ## Named Organisations ##
 
-- Patient's GP Practice - **MGP Medical Centre** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
-- Discharging Hospital - **Leeds Teaching Hospitals NHS Trust** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- Patient's GP Practice - **Canvas Health Centre** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
+- Hospital - **St Crispin’s Hospital** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
 
-Richard is admitted to the ward on the 12th Feb where, during triage, the nurse asks if he has any allergies and what medication he is on. Richard's wife has brought his medication with her so is able to show the nurse the medication. Richard tells the nurse he has an allergy to Penicillin which causes a rash. The nurse asks if he gets any swelling, to which Richard replies "no". Richard's Summary Care Record confirms what he told the nurse. Richard is given a TIMI assessment and a full blood test.
+During the Outpatients encounter Ruth performs a Rigid sigmoidoscopy with the assistance of nurse Bryant to the limit of view at 20cm. Which shows inflamed and ulcerated mucosa with contact bleeding to about 15cm. Proximally appears to improve. The abdomen was found to be soft but mainly tender in the left iliac fossa. There was no guarding or rebound and bowel sounds normal. 
 
-During the course of his stay in hospital Richard is given another ECG. The coronary angiogram indicates a diseased RCA. Following consultation with Mr Abacus, the heart specialist, Richard consents to having an angioplasty procedure to place a drug eluting stent. The is done the next day and the procedure is successful.
+Ruth findings suggest IBD. She changes Agatha's medication and wants the treatment to  commence today pending further investigation. She requests that a flexible sigmoidoscopy is done on an urgent basis. FBC, U&E, LFT and CRP are to be measured. Agatha is asked to provide Stool samples and given the forms and instructions how to do this.
 
-When Richard's wife visits him on the 15th he tells her that the consultant Mr Abacus says he can go home the following day once he has spoken to someone from the Cardiac Rehabilitation Team. The following day Richard has a Cardiac Rehabilitation consultation with Dr Paul Rastall during which he is given information regarding the diagnosis and possible life style changes when he is discharged. Richard is concerned about whether he can drive and asks about this as he is a self employed electrician. Dr Paul Rastall advises him that he should not to drive for at least a week, but reassures him that he should be able to drive once recovered and says he will arrange for a community follow-up.
-
-In the afternoon Dr Paul Rastall discharges Richard and completes and sends an Outpatient letter to Richard's GP and the community nurse at the practice where Richard is registered.
-
-Richard's wife arrives with their neighbour Peter, who has kindly agreed to pick him up from the hospital and take him home. 
 
 ## Example Instance of Scenario ##
 
-<script src="https://gist.github.com/IOPS-DEV/4c7978a769e995660c41c2c8479b9255.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/5b51bd5e3814ebca8323f57fde21bbec.js"></script>
+

@@ -1,48 +1,44 @@
 ---
-title: Richard Smith Discharge Summary Scenario
+title: Mary Jones Outpatient Letter Scenario
 keywords: workflow
 tags: [development,fhir,profiles]
 sidebar: overview_sidebar
 permalink: engage_mary_jones.html
-summary: "Example scenario - Richard Smith Discharge Summary"
+summary: "Example scenario - Mary Jones Outpatient Letter"
 ---
 
 {% include custom/search.warnbanner.html %}
 
 ## Background ##
+Mary attends an outpatient appointment at St Crispin’s Hospital with her mother, for scheduled review of tonic-clonic seizures and gastro-oesophageal reflux. Mary has been well. However she is now having on average four tonic-clonic seizures a day. Her mother has had to give her rectal diazepam on two occasions but she has not needed to go to hospital. She had a PEG inserted in April 2017 and her reflux has reduced considerably since then. Mary has increasing spasticity of right hip and more frequent tonic-clonic convulsions. Mary started at Greenacre School in September. She enjoys it and the teachers are pleased with her progress.  Her mother has been bringing her to school by car but this is becoming an increasing problem as due to recent changes work she now has to start work at 8:30 AM. Unfortunately Mary is not eligible for free school transport until she is five years old. The home-school liaison teacher is trying to come to an agreement with the local authority to enable Mary to use school transport.  The teacher for visual impairment has seen her in school and recommended that she use large print books and a magnifying glass.
 
-Richard Smith aged 60, is at home and has been feeling unwell with chest pain. His wife speaks to Peter, a neighbour, who offers to take them to the local A & E department. On arrival at A & E Richard, with the aid of his wife checks in with the receptionist. The receptionist asks for his name, address and Date of Birth and does a PDS look-up to get his details. She confirms these are correct and checks Richard in on the A & E system. She then asks him to take a seat in the waiting area.
+## The Outpatient Encounter ##
 
-After a short wait, Richard starts to feel worse and his wife goes to speak to the receptionist, who asks a passing nurse to speak to Richard. Richard's wife explains that she is concerned about the possibility of Richard suffering from a heart attack,as his symptoms are similar to Richard's mother when she had a heart attack. The nurse feels that Richard needs to be seen urgently and asks him and his wife to follow her to the examination cubicle. After taking Richard's vital signs, the nurse explains that she will go and get a doctor to examine Richard, leaves the cubicle and returns with Doctor Amanda Smith. She also takes Richard's vital signs and does an ECG that shows inferior ischaemic changes. She explains that they are going to admit Richard onto a ward for further tests.
-
-## The Inpatient Stay ##
-
-The Inpatient stay is carried in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
+The Outpatient encounter carried in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
 
 ## Named Participants ##
 
-- Patient - **Richard Smith** - [Patient Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1)
-- Patient's wife - **Joy Smith** - [RelatedPerson Resource](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-RelatedPerson-1)
-- Consultant - **Mr Abacus** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
-- Discharging clinician (Document Author) - **Dr Paul Rastall** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
-- Patient's GP (Document recipient) - **Dr John Lorenzo** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
-- Community Nurse (Document recipient) - **Mrs Angela Jones** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- Patient - **Mary Jones** - [Patient Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1)
+- Patient's mother (Document recipient and present during encounter) - **Sally Jones** - [RelatedPerson Resource](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-RelatedPerson-1)
+- Patient's father (Document recipient) - **Ian Jones** - [RelatedPerson Resource](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-RelatedPerson-1)
+- Consultant paediatrician (Document author) - **Dr. Arnold Rimmer** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- Occupational therapist (Care professional present) - **Jenny White** - - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- Health care assistant (Care professional present) - **Sarah Hall** - - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- Consultant orthopaedic (Document recipient) - **Dr. Charlotte Worth** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- Epilepsy nurse (Document recipient) - **Philip Brown** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- Patient's GP (Document recipient) - **Dr  C. O’Reilly** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
 
 ## Named Organisations ##
 
-- Patient's GP Practice - **MGP Medical Centre** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
-- Discharging Hospital - **Leeds Teaching Hospitals NHS Trust** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- Patient's GP Practice - **Canvas Health Centre** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
+- Hospital - **St Crispin’s Hospital** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
 
-Richard is admitted to the ward on the 12th Feb where, during triage, the nurse asks if he has any allergies and what medication he is on. Richard's wife has brought his medication with her so is able to show the nurse the medication. Richard tells the nurse he has an allergy to Penicillin which causes a rash. The nurse asks if he gets any swelling, to which Richard replies "no". Richard's Summary Care Record confirms what he told the nurse. Richard is given a TIMI assessment and a full blood test.
+During the Outpatients encounter a Neurodevelopmental assessment is done which finds that Mary can now sit unsupported for about 30 seconds. When lying prone she can draw her knees up underneath her but does not make any attempts to move. In clinic she was able to complete the circle and square form board but cannot do them reversed. She can say 10 words with meaning and her mother feels she can understand far more. She is able to finger feed and will drink from a cup if it is held for her. She is becoming more sociable and has a lovely smile. 
 
-During the course of his stay in hospital Richard is given another ECG. The coronary angiogram indicates a diseased RCA. Following consultation with Mr Abacus, the heart specialist, Richard consents to having an angioplasty procedure to place a drug eluting stent. The is done the next day and the procedure is successful.
-
-When Richard's wife visits him on the 15th he tells her that the consultant Mr Abacus says he can go home the following day once he has spoken to someone from the Cardiac Rehabilitation Team. The following day Richard has a Cardiac Rehabilitation consultation with Dr Paul Rastall during which he is given information regarding the diagnosis and possible life style changes when he is discharged. Richard is concerned about whether he can drive and asks about this as he is a self employed electrician. Dr Paul Rastall advises him that he should not to drive for at least a week, but reassures him that he should be able to drive once recovered and says he will arrange for a community follow-up.
-
-In the afternoon Dr Paul Rastall discharges Richard and completes and sends an Outpatient letter to Richard's GP and the community nurse at the practice where Richard is registered.
-
-Richard's wife arrives with their neighbour Peter, who has kindly agreed to pick him up from the hospital and take him home. 
+An examination determines that Mary's ankles both dorsiflex to 90°.  Her hips are very tight; the right hip only abducts to 30° and the left hip to 45°. The right hip has deteriorated.
+No evidence of dental carries. Dr. Rimmer requests to orthopaedics for early appointment for advice on deteriorating right hip. He also gives Mary's mother a letter of support to education regarding school transport.  Dr Rimmer then reviews Mary's medication and changes the dose qualities .He asks Mary's mother to review Mary's medication by phone in two weeks with Phil Brown who is a epilepsy nurse.
+ 
 
 ## Example Instance of Scenario ##
 
-<script src="https://gist.github.com/IOPS-DEV/4c7978a769e995660c41c2c8479b9255.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/944c204f72f37498bb72797d2e391b84.js"></script>
