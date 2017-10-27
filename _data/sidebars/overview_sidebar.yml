@@ -223,6 +223,12 @@ entries:
         - title: Conditions
           url: /build_conditions.html
           output: web
+        - title: Contracts
+          url: /build_contracts.html
+          output: web
+        - title: FamilyMemberHistorys
+          url: /build_familymemberhistorys.html
+          output: web
         - title: Procedures
           url: /build_procedures.html
           output: web

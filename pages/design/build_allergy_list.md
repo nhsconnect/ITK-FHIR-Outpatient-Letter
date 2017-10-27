@@ -119,7 +119,5 @@ Example to show a allergy list.
 <script src="https://gist.github.com/IOPS-DEV/baa79022e1517c5dfebe3b5f1b8f178f.js"></script>
 
 
- 
-{% include custom/provide_messaging.svg %}
 
 

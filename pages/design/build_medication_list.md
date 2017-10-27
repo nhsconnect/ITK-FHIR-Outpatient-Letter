@@ -103,6 +103,5 @@ The replacement for the medication discontinued.
 This is a flag to indicate that the new stronger medication should not be discontinued.
 <script src="https://gist.github.com/IOPS-DEV/368ab3e1b84967a7ca9ce098f40c9a0b.js"></script>
  
-{% include custom/provide_messaging.svg %}
 
 
