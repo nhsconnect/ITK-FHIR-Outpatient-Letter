@@ -1,7 +1,7 @@
 ---
 title: Safety alerts Section
 keywords:  messaging, sections
-tags: [fhir,messaging,sections]
+tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_safety_alerts.html
 summary: "Gives information about the Safety alerts section"

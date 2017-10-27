@@ -333,3 +333,6 @@ entries:
     - title: Support
       url: /tag_support.html
       output: web
+    - title: Section
+      url: /tag_section.html
+      output: web
