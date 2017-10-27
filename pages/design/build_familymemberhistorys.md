@@ -1,39 +1,29 @@
 ---
-title: Observation
+title: Family Member History
 keywords: design, build,
 tags: [design]
 sidebar: foundations_sidebar
-permalink: build_observations.html
-summary: "Constructing a observation"
+permalink: build_familymemberhistorys.html
+summary: "Constructing a family member history"
 ---
 
 {% include important.html content="The resources referenced in this section are the FHIR base resources which will be constrained by the profiles used by Outpatient letter, the profiles should be referred to for the actually allowable structure and content." %}
 
 ## Overview ##
-This section details the design approach using FHIR resources to support the AoMRC heading model which use the observation resource. The observation resource is referenced from the Condition resource.
+This section details the design approach using FHIR resources to support the AoMRC heading model which use the FamilyMemberHistory resource. 
 
 
 ## Resources Used for Profile Design ##
-The FHIR resources are profiled to create the observation as follows:
 
-- **[CareConnect-ITK-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Observation-1 )** - A CareConnect dervived NHS Digital Profile for observation. The Observation resource is used for tracking the current and historical observations that have been made for a patient.
+The FHIR FamilyMemberHistory resource is profiled to create the family member history as follows:
 
-## Observation ##
-This resource is used to record information tracking the current and historical observations that have been made for a patient.The following is a example of the elements that can be used: 
+- **[ITK-FamilyMemberHistory-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-FamilyMemberHistory-1)** - A NHS Digital Profile for family member history. 
 
-- identifier - uniquely identifies this observation (UUIDs)
-- Status - 	registered,preliminary,final,amended etc
-- code - identification of the observation
-- performer - who made the observation
-- subject - the patient
-- interpretation - High,Low, Normal etc
-- bodySite - the part of the body the observation was made about
-- method - How it was done 
+The record of relevant illnesses in family relations as volunteered by the patient or their carer or representative. Coded (SNOMED CT) using Family history simple reference set 999000771000000106 (foundation metadata concept). 
 
+**Family Member History Example**
 
-**Observation Example**
-
-<script src="https://gist.github.com/IOPS-DEV/c01035964aa03df1438a6f2e87448989.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/be1bafed8b26673bddf922b873d3975a.js"></script>
 
 
 
