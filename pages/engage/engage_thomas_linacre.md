@@ -28,7 +28,7 @@ The Outpatient encounter carried in the [Encounter Resource](https://fhir.nhs.uk
 ## Named Organisations ##
 
 - Patient's GP Practice - **Canvas Health Centre** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
-- Hospital - **St Crispin’s Hospital** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
+- Hospital - **Adobe Health Centre** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
 - Feed Company (Document Recipient) - **Company  X** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
 
 During the Outpatients encounter Susan Blight measures Tom's weight, height and BMI. she asks Tom how he is coping with his feed and tube. Tom says he is managing ok and doing all he has been instructed to do. Susan examines Tom's peg site an notes that it has healed well and is clean and dry. Susan asks Tom if his bowel movements are good, to which Tom replies that his bowels are opening daily without any medication.
