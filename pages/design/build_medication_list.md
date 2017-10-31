@@ -71,7 +71,7 @@ The medication Flag element of the List Resource will indicate the context of th
 
 ## Changing Medication Illustration ##
 
-The list will use the FHIR Flag element of the list resource to indicate the context of the medication of statement, in this case the first in the list will be flagged as a discontinuation and the second as an additional medication. 
+The list will use the FHIR Flag element of the list resource to indicate the context of the medication of statement, in this case the first in the list will be flagged as a discontinuation and the second as an additional medication. This structure is also used for Replacement medication (where one is replaced by another) and amended medication for example where a dosage or strength is changed.
 
 <img src="images/build/medication_change.png" style="width:80%;max-width: 80%;">
 

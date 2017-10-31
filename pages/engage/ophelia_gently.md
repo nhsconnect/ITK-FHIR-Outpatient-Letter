@@ -33,3 +33,9 @@ He writes her a prescription for two weeks supply of Amitriptyline explaining th
 ## Example Instance of Scenario ##
 
 <script src="https://gist.github.com/IOPS-DEV/7f7b6a3aa15ac1465cfe9c10256d7531.js"></script>
+
+## Example Rendered Instance of Scenario ##
+
+<img src="images/engage/ophelia_01.png" style="width:100%;max-width: 100%;">
+<img src="images/engage/ophelia_02.png" style="width:100%;max-width: 100%;">
+<img src="images/engage/ophelia_03.png" style="width:100%;max-width: 100%;">
