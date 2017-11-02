@@ -214,25 +214,25 @@ entries:
         - title: Overview
           url: /build_overview.html
           output: web
-        - title: Medication Lists
+        - title: Medication List
           url: /build_medication_lists.html
           output: web
-        - title: Allergy Lists
+        - title: Allergy List
           url: /build_allergy_lists.html
           output: web
-        - title: Conditions
+        - title: Condition
           url: /build_conditions.html
           output: web
-        - title: Contracts
+        - title: Contract
           url: /build_contracts.html
           output: web
-        - title: FamilyMemberHistorys
+        - title: Family History
           url: /build_familymemberhistorys.html
           output: web
-        - title: Procedures
+        - title: Procedure
           url: /build_procedures.html
           output: web
-        - title: Observations
+        - title: Observation
           url: /build_observations.html
           output: web
 #  - title: Test

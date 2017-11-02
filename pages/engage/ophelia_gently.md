@@ -36,8 +36,9 @@ He writes her a prescription for two weeks supply of Amitriptyline explaining th
 
 ## Example Rendered Instance of Scenario ##
 
-<img src="images/engage/ophelia_01.png" style="width:90%;max-width: 90%;">
-<img src="images/engage/ophelia_02.png" style="width:90%;max-width: 90%;">
-<img src="images/engage/ophelia_03.png" style="width:90%;max-width: 90%;">
+This is a rendered example of the above XML example using an [exemplar stylesheet](https://github.com/nhsconnect/ITK3-FHIR-Documents-Renderer/tree/develop) created by NHS Digital. This style is currently draft and available for use on a AS IS BASIS. Due to the size of the image, this example is best viewed with the navigation side bar switched off.
+
+<img src="images/engage/ophelia_01.png" style="width:100%;max-width: 100%;">
+
 
 

@@ -33,8 +33,7 @@ This resource is used to record detailed information about a condition, problem,
 - stage - stage/grade, usually assessed formally
 - evidence - supporting evidence
 
-
-**Condition Example**
+## Condition Example ##
 
 <script src="https://gist.github.com/IOPS-DEV/ea2e64e747535e801f2451f6fec044c3.js"></script>
 

@@ -80,7 +80,7 @@ In the illustration below, a new medication is flagged as â€œDo not Discontinueâ
 
 <img src="images/build/medication_do_not_discon.png" style="width:80%;max-width: 80%;"> 
 
-## Medication List Item Example ##
+## Medication Change Example ##
 Example to show a discontinuation of a drug, which is replaced by a stronger dose with a Flag to show that the new medication should not be discontinued.
 
 **Medication List**
@@ -97,6 +97,8 @@ The medication being discontinued.
 
 The replacement for the medication discontinued.
 <script src="https://gist.github.com/IOPS-DEV/3e1e9c7cbab951dbb7d2861b63d811d4.js"></script>
+
+## Medication Do Not Discontinue Example ##
 
 **Do Not Discontinue Flag**
 

@@ -24,15 +24,13 @@ The diagram shows the referencing between the profiles in the bundle which make 
 
 When using ITK3 there is an outer bundle structure which is called the [ITK3 send payload bundle structure](https://nhsconnect.github.io/ITK3-FHIR-Messaging-Distribution/explore_messages.html#itk-send-payload-bundle-diagram) for use with ITK3.
 
-<img src="images/explore/Outpatient letter_message_bundle.png" style="width: 75%;max-width: 75%;"> 
+<img src="images/explore/outpatientletter_message_bundle.png" style="width: 75%;max-width: 75%;"> 
 
 ## Patient ##
 
 The diagram shows the referencing for the Patient resource.
 
-
 <img src="images/explore/patient_referencing.png" style="width: 75%;max-width: 75%;"> 
-
 
 ## Encounter ##
 
@@ -98,7 +96,51 @@ The diagram shows the referencing for the Procedure resource.
 
 The diagram shows the referencing for the Observation resource.
 
+Note: there are several profiles for the Observation resource.
+
+**Generic ITK Observation**
+
 <img src="images/explore/observation_referencing.png" style="width: 75%;max-width: 75%;"> 
+
+**Occupational History Observation**
+
+<img src="images/explore/occupational_history_observation_referencing.png" style="width: 75%;max-width: 75%;"> 
+
+**Advance Decision to Refuse Treatment Observation**
+
+<img src="images/explore/ADRT_observation_referencing.png" style="width: 75%;max-width: 75%;"> 
+
+**Advance Statement Observation**
+
+<img src="images/explore/advance_statement_observation_referencing.png" style="width: 75%;max-width: 75%;"> 
+
+**Cognition Observation**
+
+<img src="images/explore/cognition_observation_referencing.png" style="width: 75%;max-width: 75%;">
+
+**Lasting Power of Attorney Observation** 
+
+<img src="images/explore/LPoA_observation_referencing.png" style="width: 75%;max-width: 75%;"> 
+
+**Accessible Information Observation** 
+
+<img src="images/explore/accessible_information_observation_referencing.png" style="width: 75%;max-width: 75%;"> 
+
+
+## Contract ##
+
+The diagram shows the referencing for the Contract resource. 
+
+Note: there are several profiles for the contract resource but they all have a similar structure.
+
+**Advance Statement Contract Profile**
+<img src="images/explore/contract_advance_statement_referencing.png" style="width: 75%;max-width: 75%;">
+
+**Advance Decision to Refuse Treatment Profile**
+<img src="images/explore/contract_ADRT_referencing.png" style="width: 75%;max-width: 75%;">
+
+**Lasting Power of Attorney Profile**
+<img src="images/explore/contract_LPoA_referencing.png" style="width: 75%;max-width: 75%;">
 
 ## Practitioner and Organization ##
 

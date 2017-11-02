@@ -98,6 +98,8 @@ The allergies list is a “Snapshot” of the known allergies at a point in time
 ## How the Allergy Record is constructed ##
 The allergy record is constructed as a single list. The diagram below shows the Resources used and relationship between the Resources.
 
+Important note: the cardinalities shown are conceptional for a list of allergies, when a patient has "no known allergies these do not apply". See the section on how to represent no known allergies for further information. 
+
 <img src="images/build/allergy_basic_structure.png" style="width:50%;max-width: 50%;">
 
 
@@ -118,6 +120,11 @@ Example to show a allergy list.
 
 <script src="https://gist.github.com/IOPS-DEV/baa79022e1517c5dfebe3b5f1b8f178f.js"></script>
 
+## How to Represent "No Known Allergies" ##
+  
+When a patient has "no known allergies" an empty list is sent with the emptyReason element populated with a SNOMED CT concept to indicate that the patient has no known allergies.
 
+## "No Known Allergies" Example ##
 
+<script src="https://gist.github.com/IOPS-DEV/a4f5f0f56dc94ac5640daac85ddb2e43.js"></script> 
 

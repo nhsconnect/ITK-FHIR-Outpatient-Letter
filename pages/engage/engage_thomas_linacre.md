@@ -46,4 +46,4 @@ Susan asks Tom to continue on the feeding regime and gives the clinic contact de
 
 ## Example Rendered Instance of Scenario ##
 
-{% include custom/thomas_linacre.html content="This is a rendered example of the above XML example using an [exemplar stylesheet] created by NHS Digital. This style is currently draft and available for use on a AS IS BASIS"%}
+This is a rendered example of the above XML example using an [exemplar stylesheet](https://github.com/nhsconnect/ITK3-FHIR-Documents-Renderer/tree/develop) created by NHS Digital. This style is currently draft and available for use on a AS IS BASIS.

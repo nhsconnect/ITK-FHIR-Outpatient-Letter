@@ -30,16 +30,15 @@ The FHIR Observation resource is profiled to create the following Observation pr
 - **[CareConnect-ITK-AdvanceStatement-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-AdvanceStatement-Observation-1)** - A CareConnect derived NHS Digital Profile for Advanced Statement.
 
 
-## Contract Examples ##
 
-**Lasting Power of Attorney**
+## Lasting Power of Attorney Example##
 
 <script src="https://gist.github.com/IOPS-DEV/2eba3200cfa916e3e1f17a726d9eba94.js"></script>
 
-**Advanced Decision to Refuse Treatment**
+## Advanced Decision to Refuse Treatment Example ##
 
 <script src="https://gist.github.com/IOPS-DEV/f18fd1c06ee1a6cbbb3706480bb2550f.js"></script>
 
-**Advanced Statement**
+## Advanced Statement Example ##
 
 <script src="https://gist.github.com/IOPS-DEV/03933f4582a47ccb9903b3cc0a5e3b00.js"></script>
