@@ -1,7 +1,7 @@
 ---
 title: Outpatient letter Headings
 keywords:  messaging
-tags: [fhir,messaging]
+tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_headings.html
 summary: "Overview of the Outpatient letter headings"
@@ -71,7 +71,7 @@ This diagram illustrates the sections used in Outpatient letter and which sectio
 
 
 The text sections are carried in the FHIR composition resource. 
-This is profiled as the [ITK-EDIS-Compostion](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-EDIS-Composition-1)
+This is profiled as the [ITK-OPL-Compostion](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-OPL-Composition-1)
 
 
 {% include custom/section.warnbanner.html %}

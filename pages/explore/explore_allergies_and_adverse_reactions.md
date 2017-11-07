@@ -12,9 +12,9 @@ summary: "Gives information about the Allergies and adverse reactions section"
 ## Allergies and Adverse Reactions Section Content##
 The Allergies and adverse reactions section carries information about the patient's allergies and adverse reactions, items in bold are subheadings and should be formatted as such in any html sent:
 
-- **Causative agent** - The agent such as food, drug or substances that has caused or may cause an allergy, intolerance or adverse reaction in this patient.</li>
+- **Causative agent** - The agent such as food, drug or substances that has caused or may cause an allergy, intolerance or adverse reaction in this patient.
 - **Description of reaction** -	A description of the manifestation of the allergic or adverse reaction experienced by the patient. For example, skin rash.
--**Type of reaction** -	The type of reaction experienced by the patient (allergic, adverse, intolerance)
+- **Type of reaction** -	The type of reaction experienced by the patient (allergic, adverse, intolerance)
 - **Severity** - A description of the severity of the reaction
 - **Certainty** - A description of the certainty that the stated causative agent caused the allergic or adverse reaction.
 - **Evidence** - Results of investigations that confirmed the certainty of the diagnosis. Examples might include results of skin prick allergy tests

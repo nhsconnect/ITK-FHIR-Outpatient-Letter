@@ -31,7 +31,7 @@ This resource is used to record information tracking the current and historical 
 - method - How it was done 
 
 
-## Coronary artery Finding Observation Example ##
+## Coronary Artery Finding Observation Example ##
 
 <script src="https://gist.github.com/IOPS-DEV/c01035964aa03df1438a6f2e87448989.js"></script>
 
