@@ -30,14 +30,11 @@ The FHIR Observation resource is profiled to create the following Observation pr
 - **[CareConnect-ITK-AdvanceStatement-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-AdvanceStatement-Observation-1)** - A CareConnect derived NHS Digital Profile for Advanced Statement.
 
 
-
-## Lasting Power of Attorney Example ##
-
-# Last Power of Attorney Contract Example #
+## Last Power of Attorney Contract Example ##
 
 <script src="https://gist.github.com/IOPS-DEV/2eba3200cfa916e3e1f17a726d9eba94.js"></script>
 
-# Last Power of Attorney Contract and Observation Example #
+## Last Power of Attorney Contract and Observation Example ##
 
 <script src="https://gist.github.com/IOPS-DEV/32f908fcbef2350535948a8c31eb3f7f.js"></script>
 
