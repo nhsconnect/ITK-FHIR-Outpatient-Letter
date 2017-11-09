@@ -36,7 +36,7 @@ Note: the examples of section HTML in this specification show only example html 
 <tr><td><a href="explore_attendance_details.html">Attendance details</a></td><td>1077881000000105</td><td>1</td><td>M</td></tr>
 <tr><td><a href="explore_clinical_review_of_systems.html">Clinical review of systems</a></td><td>1077901000000108</td><td>0</td><td>0</td></tr>
 <tr><td><a href="explore_clinical_summary.html">Clinical summary</a></td><td>887181000000106</td><td>0</td><td>M</td></tr>
-<tr><td><a href="explore_diagnosis.html">Diagnoses</a></td><td>887161000000102</td><td>1</td><td>M</td></tr>
+<tr><td><a href="explore_diagnoses.html">Diagnoses</a></td><td>887161000000102</td><td>1</td><td>M</td></tr>
 <tr><td><a href="explore_distribution_list.html">Distribution list</a></td><td>N/A</td><td>0</td><td>M</td></tr>
 <tr><td><a href="explore_examination_findings.html">Examination findings</a></td><td>715851000000102</td><td>2</td><td>O</td></tr>
 <tr><td><a href="explore_family_history.html">Family history</a></td><td>887111000000104</td><td>1</td><td>O</td></tr>
@@ -54,8 +54,8 @@ Note: the examples of section HTML in this specification show only example html 
 <tr><td><a href="explore_plan_req_actions.html">Plan and requested actions</a></td><td>887201000000105</td><td>0</td><td>O</td></tr>
 <tr><td><a href="explore_problems_and_issues.html">Problems and issues</a></td><td>887151000000100</td><td>0</td><td>O</td></tr>
 <tr><td><a href="explore_procedures.html">Procedures</a></td><td>887171000000109</td><td>1</td><td>O</td></tr>
-<tr><td><a href="explore_referrer.html">Referrer details</a></td><td>1052891000000108</td><td>0</td><td>O</td></tr>
-<tr><td><a href="explore_relevant_clinical_risk_factors.html">Relevant clinical risk factors</a></td><td>1052891000000108</td><td>2</td><td>O</td></tr>
+<tr><td><a href="explore_referrer_details.html">Referrer details</a></td><td>1052891000000108</td><td>0</td><td>O</td></tr>
+<tr><td><a href="explore_clinical_risk_factors.html">Relevant clinical risk factors</a></td><td>1052891000000108</td><td>2</td><td>O</td></tr>
 <tr><td><a href="explore_safety_alerts.html">Safety alerts</a></td><td>886931000000107</td><td>0</td><td>O</td></tr>
 <tr><td><a href="explore_social_context.html">Social context</a></td><td>887051000000101</td><td>1</td><td>O</td></tr>
 </table>

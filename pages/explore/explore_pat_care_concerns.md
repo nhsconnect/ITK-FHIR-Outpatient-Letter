@@ -25,8 +25,8 @@ This text section should be linked to the following FHIR Resources to provide th
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format for the Advance Statement.
 
-- [Contract(Advance Statement)](build_contract.html)
-- [Observation(Advance Statement)](build_contract.html)
+- [Contract(Advance Statement)](build_contracts.html)
+- [Observation(Advance Statement)](build_observations.html)
 
 
 
