@@ -22,7 +22,7 @@ The Family history section carries details of any family history, items in bold 
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- [FamilyMemberHistory](build_family_history.html)
+- [FamilyMemberHistory](build_familymemberhistorys.html)
 
 
 
