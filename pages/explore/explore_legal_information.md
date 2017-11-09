@@ -29,8 +29,8 @@ The Legal information section carries information about legal information perina
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- [Contract(ADRT and LPOA)](build_contract.html)
-- [Observation(ADRT and LPOA)](build_contract.html)
+- [Contract(ADRT and LPOA)](build_contracts.html)
+- [Observation(ADRT and LPOA)](build_observations.html)
 
 
 
