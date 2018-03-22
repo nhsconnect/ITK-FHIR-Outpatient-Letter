@@ -38,9 +38,9 @@ entries:
     - title: Transport
       url: /explore_transport.html
       output: web
-    - title: Interactions
-      url: /explore_interactions.html
-      output: web
+#    - title: Interactions
+#      url: /explore_interactions.html
+#      output: web
     - title: Document Profiles
       url: /explore_document_profiles.html
       output: web
@@ -55,6 +55,16 @@ entries:
         - title: Encounter
           url: /workflow_encounter.html
           output: web
+  - title: Message Definitions
+    url: /explore_message_definitions.html
+    output: web
+    folderitems:
+    - title: Overview
+      url: /explore_defs_overview.html
+      output: web
+    - title: Mental Health eDischarge
+      url: /explore_MH_eDischarge_def.html
+      output: web 
   - title: Section Headings
     output: web,pdf
     folderitems:
@@ -91,7 +101,7 @@ entries:
         - title: Examination findings
           url: /explore_examination_findings.html
           output: web
-        - title: Family History
+        - title: Family history
           url: /explore_family_history.html
           output: web
         - title: GP Practice
@@ -206,6 +216,12 @@ entries:
     - title: Resource Referencing
       url: /build_resource_referencing.html
       output: web
+    - title: Use of Attachments
+      url: /build_attachments.html
+      output: web
+    - title: Rendering Documents
+      url: /build_rendering.html
+      output: web
       subfolders:
       - title: Constructing Clinical Coded Structures
         url: /build_constructing_coded_structures.html
@@ -222,12 +238,6 @@ entries:
           output: web
         - title: Condition
           url: /build_conditions.html
-          output: web
-        - title: Contract
-          url: /build_contracts.html
-          output: web
-        - title: Family History
-          url: /build_familymemberhistorys.html
           output: web
         - title: Procedure
           url: /build_procedures.html
