@@ -9,7 +9,7 @@ summary: "Outpatient Letter Message Definition"
 
 {% include custom/search.warnbanner.html %}
 
-## Outpatienty Letter Definition Overview ##
+## Outpatient Letter Definition Overview ##
 
 This is the MessageDefinition instance for the ITK 3 Outpatient Letter document.
 
