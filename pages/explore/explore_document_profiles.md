@@ -36,19 +36,9 @@ The Bundle consists of the following FHIR Resource Profiles.
 - **[CareConnect-Organization-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)** - 	A CareConnect Profile for Organization. The Organization resource represents the organisation that employs the healthcare professional.
 - **[CareConnect-Location-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1)** - A CareConnect Profile for Location. The Location resource provides information and details on the physical location and the services provided.
 - **[ITK-Device-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Device-1)** - An NHS Digital profile which identifies an instance of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.
-- **[ITK-AdvanceStatement-Contract-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-AdvanceStatement-Contract-1)** - An NHS Digital profile for Contract resource is constrained to represent an Advance Statement.
-- **[CareConnect-ITK-AdvanceStatement-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-AdvanceStatement-Observation-1)** - A CareConnect derived NHS Digital Profile for advance statement observations. 
-- **[ITK-LPoA-Contract-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-LPoA-Contract-1)** - An NHS Digital profile for Contract resource is constrained to represent Lasting Power of Attorney.
-- **[CareConnect-ITK-LPoA-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-LPoA-Observation-1)** - An NHS Digital profile to represent the Lasting Power of Attorney information for the patient.
-- **[ITK-HealthcareService-1	](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-HealthcareService-1)** - An NHS Digital profile for HealthcareServices for Transfer of Care.
-- **[ITK-FamilyMemberHistory-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-FamilyMemberHistory-1)** -  An NHS Digital profile for Family member history for Transfer of Care.
-- **[ITK-ADRT-Contract-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-ADRT-Contract-1)** - An NHS Digital profile to represent the Advance Decision to Refuse Treatment made by a patient.
-- **[CareConnect-ITK-OccupationalHistory-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-OccupationalHistory-Observation-1)** - A CareConnect derived NHS Digital profile to carry information about the occupational history of the patient.
-- **[CareConnect-ITK-Mobility-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Mobility-Observation-1)** - A CareConnect derived NHS Digital profile to carry information related to the mobility of the patient.
-- **[CareConnect-ITK-Cognition-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Cognition-Observation-1)** - A CareConnect derived NHS Digital profile to carry information related to the cognition of the patient.		
-- **[CareConnect-ITK-AccessibleInformation-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-AccessibleInformation-Observation-1)** - A CareConnect derived NHS Digital profile to carry information related to the accessibility to information for the patient.
-- **[CareConnect-ITK-ADRT-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-ADRT-Observation-1)** - A CareConnect derived NHS Digital profile to carry information related to the Advance Decision to Refuse Treatment.		
-		
+- **[ITK-Attachment-Binary-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Attachment-Binary-1)** - An NHS Digital profile which may be used to carry attachments to be included in the document. 
+
+**Note**: This attachment profile must not be used to send an unstructured Transfer of Care document, its purpose is to allow an attachment to be included within a structured Transfer of Care document.		
 			
 
 ## Profile Extensions ##
