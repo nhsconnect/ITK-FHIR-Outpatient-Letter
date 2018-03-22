@@ -18,7 +18,7 @@ This is the MessageDefinition instance for the ITK 3 Outpatient Letter document.
 - **MessageDefinition:** ITK-OutpatientLetter-MessageDefinition-Instance-1
 
 
-<script src="https://gist.github.com/IOPS-DEV/f5c4265bc3b719286b7728c0cbe5e7ec.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/a813114f9f779acfea4fce81df8231ed.js"></script>
 ---
 
 
