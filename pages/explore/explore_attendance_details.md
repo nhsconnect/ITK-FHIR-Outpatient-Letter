@@ -63,7 +63,7 @@ The Attendance details section carries information about the patient's attendanc
    <td>CONSULTATION METHOD USED identifies the communication mechanism used to relay information between the CARE PROFESSIONAL and the PERSON who is the subject of the consultation, during the Outpatient encounter</td>
    <td>0 to 1</td>
    <td>required</td>
-   <td>"Consultation method may come from those recorded on the local PAS. NHS Data Dictionary.
+   <td>Consultation method may come from those recorded on the local PAS. NHS Data Dictionary.
 <ul>
 <li>Face-to-face,</li>
 <li>telephone,</li>

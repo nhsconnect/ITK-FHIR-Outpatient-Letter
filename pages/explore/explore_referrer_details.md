@@ -10,9 +10,42 @@ summary: "Gives information about the Referrer details section"
 {% include custom/section.warnbanner.html %}
 
 ## Referrer Details Section Content##
-The Referrer details section carries a narrative summary of the episode. Where possible, very brief,items in bold are subheadings and should be formatted as such in any html sent:
+The Referrer details section carries a narrative summary of the episode, where possible, very brief. Elements should be formatted as subheadings in any html sent:
 
-- **Referrer details** - Name, designation, organisation and contact details of referrer. If not an individual, this could be, eg, GP surgery, department, specialty, subspecialty, educational institution, mental health etc. Also needs to include self-referral.
+<table style="width:100%;max-width: 100%;">
+	<thead>
+		<tr>
+			<th width="18%">Section</th>
+			<th width="30%">Description</th>
+			<th width="11%">Cardinality</th>
+			<th width="11%">MRO*</th>
+			<th width="30%">Values</th>
+		</tr>
+	</thead>
+ <tbody>
+  <tr>
+   <td>Referrer details</td>
+   <td>Details of the individual or team who referred the patient.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>&nbsp;</td>
+  </tr>
+		<tr>
+			<th>Element</th>
+			<th>Description</th>
+			<th>Cardinality</th>
+			<th>MRO*</th>
+			<th>Values</th>
+		</tr>
+  <tr>
+   <td>Referrer details</td>
+   <td>Name, role, grade, organisation and contact details of referrer. If not an individual, this could be e.g. GP surgery, department, specialty, sub-specialty, educational institution, mental health team etc. Also needs to include self-referral.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>The referrer details will normally be copied forward from the referral or handover of care, document.Where the referral or handover of care document stated individual, team, department or organisation names and identifies, these should form part of the Referrer details.Where the referral is a self-referral, coded text - self referral.</td>
+  </tr>
+ </tbody>
+</table>
 
 ##  Example Referrer Details Section ##
 
