@@ -9,10 +9,47 @@ summary: "Gives information about the Individual requirements section"
 
 {% include custom/section.warnbanner.html %}
 
-## Individual Requirements Content ##
-The Individual requirements section carries information about the individual requirements of the patient,items in bold are subheadings and should be formatted as such in any html sent:
+## Individual Requirements Section Content ##
+The Individual requirements section carries information about the individual requirements of the patient. Elements should be formatted as sub headings in any html sent.
 
-- **Individual requirement** - Individual requirements that a person has. These may be communication, cultural, cognitive or mobility needs. Information volunteered by the person or their representative or carer, or known about locally.
+<table style="width:100%;max-width: 100%;">
+	<thead>
+		<tr>
+			<th width="18%">Section</th>
+			<th width="30%">Description</th>
+			<th width="11%">Cardinality</th>
+			<th width="11%">MRO*</th>
+			<th width="30%">Values</th>
+		</tr>
+	</thead>
+ <tbody>
+  <tr>
+   <td>Individual requirements </td>
+   <td>Individual requirements that a person has, e.g. communication, cultural, cognitive or mobility needs. </td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>&nbsp;</td>
+  </tr>
+		<tr>
+			<th>Element</th>
+			<th>Description</th>
+			<th>Cardinality</th>
+			<th>MRO*</th>
+			<th>Values</th>
+		</tr>
+  <tr>
+   <td>Individual requirements</td>
+   <td>Individual requirements that a person has. These may be communication, cultural, cognitive or mobility needs.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>"Information volunteered by the person or their representative or carer, or known about locally.Text or coded text (SNOMED CT), constrained as specified in SCCI1605.Accessible Information standard (accessible information - communications support, accessible information - requires communications professional, accessible information - requires specific contact method, accessible information - requires specific information format).
+</br>Personal Preferences subset - https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/225<br/>
+Accessible information subsets - https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/657 - https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/660 - https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/658 - https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/659
+<br/>Mobility subsets:https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/762https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/181
+<br/>Cognitionhttps://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/9"</td>
+  </tr>
+ </tbody>
+</table>
 
 ##  Example Individual Requirements Section ##
 
@@ -22,10 +59,7 @@ The Individual requirements section carries information about the individual req
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
-
-
-- [Observation(Accessible information,Mobility,Cognition)](build_observations.html)
+- The ITK FHIR Outpatient Letter does not currently support coded individual requirements information.
 
 
 
