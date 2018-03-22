@@ -96,7 +96,7 @@ Note: the examples of section HTML in this specification show only example html 
 		</td>
 		<td>887261000000109</td>
     	<td>0..1</td>
-		<td>Optional</td>
+		<td>Required</td>
 		<td>4</td>
 	</tr>
  <tr>
@@ -122,8 +122,8 @@ Note: the examples of section HTML in this specification show only example html 
 			<a href="explore_gp_practice.html">GP practice</a>
 		</td>
 		<td>886711000000101</td>
-    	<td>0..1</td>
-		<td>Required</td>
+    	<td>1..1</td>
+		<td>Mandatory</td>
 		<td>2</td>
 	</tr>
  <tr>
@@ -177,7 +177,7 @@ Note: the examples of section HTML in this specification show only example html 
   </td>
   <td>933361000000108</td>
   <td>0..1</td>
-  <td>Required</td>
+  <td>Optional</td>
 <td>2</td>
  </tr>
  <tr>
@@ -186,7 +186,7 @@ Note: the examples of section HTML in this specification show only example html 
   </td>
   <td>886751000000102</td>
   <td>0..1</td>
-  <td>Optional</td>
+  <td>Required</td>
 <td>0</td>
  </tr>
 
