@@ -43,10 +43,27 @@ The Individual requirements section carries information about the individual req
    <td>0 to 1</td>
    <td>required</td>
    <td>Information volunteered by the person or their representative or carer, or known about locally.Text or coded text (SNOMED CT), constrained as specified in SCCI1605.Accessible Information standard (accessible information - communications support, accessible information - requires communications professional, accessible information - requires specific contact method, accessible information - requires specific information format).
-<br/>Personal Preferences subset - https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/225<br/>
-Accessible information subsets - https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/657 - https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/660 - https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/658 - https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/659
-<br/>Mobility subsets:https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/762https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/181
-<br/>Cognitionhttps://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/9"</td>
+<ul>
+<li>
+Personal Preferences subset - https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/225</li>
+<li>Accessible information subsets</li>
+<ul>
+<li>https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/657</li>
+<li>https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/660</li>
+<li>https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/658</li>
+<li>https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/659</li>
+</ul>
+<li>Mobility subsets</li>
+<ul>
+<li>https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/762</li>
+<li>https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/181</li>
+</ul>
+<li>Cognition</li>
+<ul>
+<li>https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/9</li>
+</ul>
+</ul>
+</td>
   </tr>
  </tbody>
 </table>
