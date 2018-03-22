@@ -62,8 +62,8 @@ entries:
     - title: Overview
       url: /explore_defs_overview.html
       output: web
-    - title: Mental Health eDischarge
-      url: /explore_MH_eDischarge_def.html
+    - title: Outpatient Letter
+      url: /explore_OPL_def.html
       output: web 
   - title: Section Headings
     output: web,pdf
