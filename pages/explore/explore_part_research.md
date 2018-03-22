@@ -10,9 +10,42 @@ summary: "Gives information about the Participation in research section"
 {% include custom/section.warnbanner.html %}
 
 ## Participation in Research Section Content##
-This is to flag participation in a clinical trial.Items in bold are subheadings and should be formatted as such in any html sent:
+This is to flag participation in a clinical trial. Elements should be formatted as sub headings in any html sent.
 
-- **Name of research study** - Name of the research study/trial. Drug/intervention.Name of the research trial actively engaged in and, if available, URL to trial. All other information will be sent to GP separately.
+<table style="width:100%;max-width: 100%;">
+	<thead>
+		<tr>
+			<th width="18%">Section</th>
+			<th width="30%">Description</th>
+			<th width="11%">Cardinality</th>
+			<th width="11%">MRO*</th>
+			<th width="30%">Values</th>
+		</tr>
+	</thead>
+ <tbody>
+  <tr>
+   <td>Participation in research</td>
+   <td>The details of any research studies participated in.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>&nbsp;</td>
+  </tr>
+		<tr>
+			<th>Element</th>
+			<th>Description</th>
+			<th>Cardinality</th>
+			<th>MRO*</th>
+			<th>Values</th>
+		</tr>
+  <tr>
+   <td>Name of research study</td>
+   <td>Name of the research study/trial and/or drug/intervention</td>
+   <td>0 to 1</td>
+   <td>optional</td>
+   <td>Name of the research trial actively engaged in and, if available, URL to trial. All other information will be sent to GP separately.</td>
+  </tr>
+ </tbody>
+</table>
 
 ##  Example Participation in Research Section ##
 
