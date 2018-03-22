@@ -36,6 +36,7 @@ Note: the examples of section HTML in this specification show only example html 
 		<th width="13%">Conformance</th>
 		<th width="13%">Associated Coded Profiles</th>
 	</tr>
+<tr>
   <td>
    <a href="explore_allergies_and_adverse_reactions.html">Allergies and adverse reactions</a>
   </td>
