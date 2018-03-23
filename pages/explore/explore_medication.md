@@ -231,7 +231,7 @@ The Medications and medical devices section carries information about the patien
 <ul><li>Continued [Medicine present on both admission and discharge with no amendments.]</li>
 <li>Added [Medicine present on discharge but not on admission]</li>
 <li>Amended [Medicine present on both admission and discharge but with amendment(s) since admission.]"</li>
-<ul>
+</ul>
 </td>
   </tr>
   <tr>
