@@ -157,11 +157,9 @@ entries:
         url: /explore_admission_details.html
         output: web
         subfolderitems:
-        - title: Relevant clinical risk factors
-          url: /explore_clinical_risk_factors.html
-          output: web
         - title: Referrer details
           url: /explore_referrer_details.html
+          output: web
           output: web
         - title: Safety alerts
           url: /explore_safety_alerts.html
