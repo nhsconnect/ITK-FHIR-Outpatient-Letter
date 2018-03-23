@@ -38,7 +38,7 @@ The Medications and medical devices section carries information about the patien
 			<th>Values</th>
 		</tr>
   <tr>
-   <th>Medication item cluster</td>
+   <th>Medication item cluster</th>
    <th>&nbsp;</th>
    <th>&nbsp;</th>
    <th>&nbsp;</th>
@@ -77,7 +77,7 @@ The Medications and medical devices section carries information about the patien
    <td>The anatomical site at which the medication is to be administered.Comment: e.g. "Left eye"</td>
    <td>0 to 1</td>
    <td>optional</td>
-   <td>"Text or text derived from SNOMED CT -  constraint: SiteOfMedicationAdministration. Any valid site for the administration of a medication. Constraint binding: [SNOMED-CT]subset= SiteOfMedicationAdministration"</td>
+   <td>Text or text derived from SNOMED CT -  constraint: SiteOfMedicationAdministration. Any valid site for the administration of a medication. Constraint binding: [SNOMED-CT]subset= SiteOfMedicationAdministration"</td>
   </tr>
   <tr>
    <td>Method</td>
@@ -153,11 +153,14 @@ The Medications and medical devices section carries information about the patien
    <td>Additional multiple dosage or administration instructions as plain text. This may include guidance to the prescriber, patient or person administering the medication. In some settings, specific Administration Instructions may be re-labelled as "Patient advice' or 'Dispensing Instruction' to capture these flavours of instruction.  Comment: e.g. "Omit  morning dose on day of procedure", "for pain or fever", "Dispense weekly".</td>
    <td>0 to many</td>
    <td>optional</td>
-   <td>"TextRuntime name constraint:
+   <td>TextRuntime name constraint:
 <ul><li>Additional instruction [Additional multiple dosage or administration instructions as plain text. This may include guidance to the prescriber, patient or person administering the medication. In some settings, specific Administration Instructions may be re-labelled as "Patient advice' or 'Dispensing Instruction' to capture these flavours of instruction.]</li>
 <li>Dispensing instruction [Multiple plain text to record complex dispensing arrangements, particularly for Controlled Drug instalment dispensing. 'Dispensing instructions' may be used as a specific label to overwrite 'Additional instructions' to align with legacy GP system behaviour.]</li>
 <li>Patient advice [Multiple plain text instructions intended for patient or carer. 'Patient advice' may be used as a specific label to overwrite 'Additional instructions' to align with legacy GP system behaviour.]</li>
 <li>Monitoring [Special instructions related to monitoring of medication, such as lab tests.]"</li>
+</td>
+</tr>
+<tr>
    <td>Course details cluster</td>
    <td>Details of the overall course of medication.</td>
    <td>0 to 1</td>
@@ -169,7 +172,7 @@ The Medications and medical devices section carries information about the patien
    <td>The status of this prescription in an ambulatory (outpatient/GP/community) context</td>
    <td>0 to 1</td>
    <td>optional</td>
-   <td>"Choice of text derived from codes** Data item not relevant to Hospital to GP discharge summary
+   <td>Choice of text derived from codes** Data item not relevant to Hospital to GP discharge summary
  <li>Active [This is an active medication.]</li>
 <li>Discontinued [This is a medication that has been issued. dispensed or administered but has now been discontinued.]</li>
 <li>Never active [A medication which was ordered or authorised but has been cancelled prior to being issued, dispensed or administered.]</li>
@@ -196,8 +199,7 @@ The Medications and medical devices section carries information about the patien
    <td>Reason for medication being prescribed, where known.</td>
    <td>0 to 1</td>
    <td>optional</td>
-   <td>"A free text or text derived from terms giving the clinical indication or reason for ordering the medication. Code derived terms are preferable.</td> 
-<td>Comment: e.g. "Angina". The Indication generally describes a condition or diagnosis"</td>
+   <td>A free text or text derived from terms giving the clinical indication or reason for ordering the medication. Code derived terms are preferable.Comment: e.g. "Angina". The Indication generally describes a condition or diagnosis</td>
   </tr>
   <tr>
    <td>Link to indication record</td>
@@ -230,7 +232,7 @@ The Medications and medical devices section carries information about the patien
 <li>Added [Medicine present on discharge but not on admission]</li>
 <li>Amended [Medicine present on both admission and discharge but with amendment(s) since admission.]"</li>
 <ul>
-<td>
+</td>
   </tr>
   <tr>
    <td>Indication</td>
