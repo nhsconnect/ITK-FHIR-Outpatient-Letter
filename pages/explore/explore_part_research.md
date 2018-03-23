@@ -49,7 +49,7 @@ This is to flag participation in a clinical trial. Elements should be formatted 
 
 ##  Example Participation in Research Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/5974b2658252a6ac97c8fef6c2eb64bc.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/9cd8f422a7c1e323ed42ac424a5830db.js"></script>
 
 ## Coded Resources ##
 
