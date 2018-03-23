@@ -13,36 +13,36 @@ summary: "Gives information about the Medications and medical devices section"
 The Medications and medical devices section carries information about the patient's medication. Elements should be formatted as subheadings in any html sent:
 
 <table style="width:100%;max-width: 100%;">
-	<thead>
-		<tr>
-			<th width="18%">Section</th>
-			<th width="30%">Description</th>
-			<th width="11%">Cardinality</th>
-			<th width="11%">MRO*</th>
-			<th width="30%">Values</th>
-		</tr>
-	</thead>
+ <thead>
+  <tr>
+   <th width="18%">Section</th>
+   <th width="30%">Description</th>
+   <th width="11%">Cardinality</th>
+   <th width="11%">MRO*</th>
+   <th width="30%">Values</th>
+  </tr>
+ </thead>
  <tbody>
   <tr>
    <td>Medications and Medical Devices </td>
    <td>The details of and instructions for medications and medical equipment the patient is using.</td>
    <td>0 to 1</td>
    <td>optional</td>
-   <td>&nbsp;</td>
+   <td/>
   </tr>
-		<tr>
-			<th>Element</th>
-			<th>Description</th>
-			<th>Cardinality</th>
-			<th>MRO*</th>
-			<th>Values</th>
-		</tr>
+  <tr>
+   <th>Element</th>
+   <th>Description</th>
+   <th>Cardinality</th>
+   <th>MRO*</th>
+   <th>Values</th>
+  </tr>
   <tr>
    <th>Medication item cluster</th>
-   <th>&nbsp;</th>
-   <th>&nbsp;</th>
-   <th>&nbsp;</th>
-   <th>&nbsp;</th>
+   <th/>
+   <th/>
+   <th/>
+   <th/>
   </tr>
   <tr>
    <td>Medication name</td>
@@ -50,13 +50,13 @@ The Medications and medical devices section carries information about the patien
    <td>1 only</td>
    <td>mandatory</td>
    <td>"Choice of Text or text derived from SNOMED CT -  constraint: MedicationName. Any AMP/VMP/VTM/AMPP/VMPP subsets from the dm+d terminology. NHS dm+d<ul>
-<li>AMP ::352201000001139 NHS dm+d</li>
-<li>AMPP ::352401000001135 NHS dm+d</li>  
-<li>VMP ::352701000001133 NHS dm+d</li> 
-<li>VMPP ::352301000001131 NHS dm+d</li> 
-<li>VTM ::352601000001138. Constraint binding: [dm+d]subset=NHS_dm+d"</li>
-</ul>
-</td>
+     <li>AMP ::352201000001139 NHS dm+d</li>
+     <li>AMPP ::352401000001135 NHS dm+d</li>
+     <li>VMP ::352701000001133 NHS dm+d</li>
+     <li>VMPP ::352301000001131 NHS dm+d</li>
+     <li>VTM ::352601000001138. Constraint binding: [dm+d]subset=NHS_dm+d"</li>
+    </ul>
+   </td>
   </tr>
   <tr>
    <td>Form</td>
@@ -141,12 +141,13 @@ The Medications and medical devices section carries information about the patien
    <td>0 to 1</td>
    <td>optional</td>
    <td>"Choice of test of text derived from codes
- <ul><li>Continue indefinitely [The medication should be continued indefinitely.]</li>
-<li>Do not discontinue [The medication should be continued indefinitely and the prescriber highly recommends that it should never be discontinued. This is an AoMRC Clinical Headings recommendation.]</li>
-<li>Stop when course complete. [The medication should be stopped when the currently prescribed course has been completed.]</li>
-<li>Duration: Allowed values: years, months, weeks, days, hours >=0 days"</li>
-</ul>
-</td>
+ <ul>
+     <li>Continue indefinitely [The medication should be continued indefinitely.]</li>
+     <li>Do not discontinue [The medication should be continued indefinitely and the prescriber highly recommends that it should never be discontinued. This is an AoMRC Clinical Headings recommendation.]</li>
+     <li>Stop when course complete. [The medication should be stopped when the currently prescribed course has been completed.]</li>
+     <li>Duration: Allowed values: years, months, weeks, days, hours >=0 days"</li>
+    </ul>
+   </td>
   </tr>
   <tr>
    <td>Additional instruction </td>
@@ -154,13 +155,15 @@ The Medications and medical devices section carries information about the patien
    <td>0 to many</td>
    <td>optional</td>
    <td>TextRuntime name constraint:
-<ul><li>Additional instruction [Additional multiple dosage or administration instructions as plain text. This may include guidance to the prescriber, patient or person administering the medication. In some settings, specific Administration Instructions may be re-labelled as "Patient advice' or 'Dispensing Instruction' to capture these flavours of instruction.]</li>
-<li>Dispensing instruction [Multiple plain text to record complex dispensing arrangements, particularly for Controlled Drug instalment dispensing. 'Dispensing instructions' may be used as a specific label to overwrite 'Additional instructions' to align with legacy GP system behaviour.]</li>
-<li>Patient advice [Multiple plain text instructions intended for patient or carer. 'Patient advice' may be used as a specific label to overwrite 'Additional instructions' to align with legacy GP system behaviour.]</li>
-<li>Monitoring [Special instructions related to monitoring of medication, such as lab tests.]"</li>
-</td>
-</tr>
-<tr>
+<ul>
+     <li>Additional instruction [Additional multiple dosage or administration instructions as plain text. This may include guidance to the prescriber, patient or person administering the medication. In some settings, specific Administration Instructions may be re-labelled as "Patient advice' or 'Dispensing Instruction' to capture these flavours of instruction.]</li>
+     <li>Dispensing instruction [Multiple plain text to record complex dispensing arrangements, particularly for Controlled Drug instalment dispensing. 'Dispensing instructions' may be used as a specific label to overwrite 'Additional instructions' to align with legacy GP system behaviour.]</li>
+     <li>Patient advice [Multiple plain text instructions intended for patient or carer. 'Patient advice' may be used as a specific label to overwrite 'Additional instructions' to align with legacy GP system behaviour.]</li>
+     <li>Monitoring [Special instructions related to monitoring of medication, such as lab tests.]"</li>
+    </ul>
+   </td>
+  </tr>
+  <tr>
    <td>Course details cluster</td>
    <td>Details of the overall course of medication.</td>
    <td>0 to 1</td>
@@ -174,11 +177,11 @@ The Medications and medical devices section carries information about the patien
    <td>optional</td>
    <td>Choice of text derived from codes** Data item not relevant to Hospital to GP discharge summary
  <li>Active [This is an active medication.]</li>
-<li>Discontinued [This is a medication that has been issued. dispensed or administered but has now been discontinued.]</li>
-<li>Never active [A medication which was ordered or authorised but has been cancelled prior to being issued, dispensed or administered.]</li>
-<li>Completed [The medication course has been completed.]</li>
-<li>Obsolete [This medication order has been superseded by another.]"</li>
-</td>
+    <li>Discontinued [This is a medication that has been issued. dispensed or administered but has now been discontinued.]</li>
+    <li>Never active [A medication which was ordered or authorised but has been cancelled prior to being issued, dispensed or administered.]</li>
+    <li>Completed [The medication course has been completed.]</li>
+    <li>Obsolete [This medication order has been superseded by another.]"</li>
+   </td>
   </tr>
   <tr>
    <td>Start date/time</td>
@@ -220,7 +223,7 @@ The Medications and medical devices section carries information about the patien
    <td>Records the changes made to medication since admission</td>
    <td>0 to 1</td>
    <td>optional</td>
-   <td></td>
+   <td/>
   </tr>
   <tr>
    <td>Status</td>
@@ -228,11 +231,12 @@ The Medications and medical devices section carries information about the patien
    <td>0 to 1</td>
    <td>optional</td>
    <td>"Choice of text or text derived from codes
-<ul><li>Continued [Medicine present on both admission and discharge with no amendments.]</li>
-<li>Added [Medicine present on discharge but not on admission]</li>
-<li>Amended [Medicine present on both admission and discharge but with amendment(s) since admission.]"</li>
-</ul>
-</td>
+<ul>
+     <li>Continued [Medicine present on both admission and discharge with no amendments.]</li>
+     <li>Added [Medicine present on discharge but not on admission]</li>
+     <li>Amended [Medicine present on both admission and discharge but with amendment(s) since admission.]"</li>
+    </ul>
+   </td>
   </tr>
   <tr>
    <td>Indication</td>
@@ -278,10 +282,10 @@ The Medications and medical devices section carries information about the patien
   </tr>
   <tr>
    <td>Medication discontinued entry</td>
-   <td>&nbsp;</td>
-   <td>&nbsp;</td>
-   <td>&nbsp;</td>
-   <td>&nbsp;</td>
+   <td/>
+   <td/>
+   <td/>
+   <td/>
   </tr>
   <tr>
    <td>Name of discontinued medication</td>
@@ -327,6 +331,7 @@ The Medications and medical devices section carries information about the patien
   </tr>
  </tbody>
 </table>
+
 
 
 
