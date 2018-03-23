@@ -10,12 +10,56 @@ summary: "Gives information about the Relevant clinical risk factors section"
 {% include custom/section.warnbanner.html %}
 
 ## Relevant Clinical Risk Factors Section Content##
-The Relevant clinical risk factors section carries information about relevant clinical risk factors for the patient, items in bold are subheadings and should be formatted as such in any html sent:
+The Relevant clinical risk factors section carries information about relevant clinical risk factors for the patient. Elements should be formatted as sub headings in any html sent.
 
-- **Relevant clinical risk factor** - Factors that have been shown to be associated with the development of a medical condition being considered as a diagnosis/differential diagnosis. Eg being overweight, smoker, no use of sun screen, enzyme deficiency.
-- **Clinical risk assessment** - Specific risk assessments required/undertaken.
-- **Risk mitigation** - Action taken to reduce the clinical risk and date actions.
-
+<table style="width:100%;max-width: 100%;">
+	<thead>
+		<tr>
+			<th width="18%">Section</th>
+			<th width="30%">Description</th>
+			<th width="11%">Cardinality</th>
+			<th width="11%">MRO*</th>
+			<th width="30%">Values</th>
+		</tr>
+	</thead>
+<tbody>
+  <tr>
+   <td>Relevant clinical risk factors</td>
+   <td>Whether the patient is at high risk of clinical deterioration, any relevant clinical risk factors and risk mitigation plans.</td>
+   <td>0 to 1</td>
+   <td>optional</td>
+   <td>&nbsp;</td>
+  </tr>
+		<tr>
+			<th>Element</th>
+			<th>Description</th>
+			<th>Cardinality</th>
+			<th>MRO*</th>
+			<th>Values</th>
+		</tr>
+  <tr>
+   <td>Relevant clinical risk factor</td>
+   <td>Factors that have been shown to be associated with the development of a medical condition being considered as a diagnosis/differential diagnosis. Eg being overweight, smoker, no use of sun screen, enzyme deficiency.</td>
+   <td>0 to many</td>
+   <td>optional</td>
+   <td>Coded (SNOMED CT) or text</td>
+  </tr>
+  <tr>
+   <td>Clinical risk assessment</td>
+   <td>Specific risk assessments required/undertaken.</td>
+   <td>0 to many</td>
+   <td>optional</td>
+   <td>Text</td>
+  </tr>
+  <tr>
+   <td>Risk mitigation</td>
+   <td>Action taken to reduce the clinical risk and date actions.</td>
+   <td>0 to 1</td>
+   <td>optional</td>
+   <td>Free text.</td>
+  </tr>
+ </tbody>
+</table>
 
 ##  Example Relevant Clinical Risk Factors Section ##
 
