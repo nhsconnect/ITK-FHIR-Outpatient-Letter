@@ -128,13 +128,14 @@ The Attendance details section carries information about the patient's attendanc
 
 ##  Example Attendance Details Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/1de586b28972e8d12a2c073646336708.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/ca6f27726a82f33981f972a17e6b2710.js"></script>
 
 ## Coded Resources ##
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- [Encounter](workflow_encounter.html)
+- The ITK FHIR Outpatient letter does not currently support coded Attendance details.
+
 
 
 

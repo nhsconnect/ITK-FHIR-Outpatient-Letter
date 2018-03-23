@@ -65,6 +65,6 @@ The GP practice section contains details of the patients GP practice. Elements s
 
 ## Example GP Practice Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/0254c9b07fa77cd926dbe0b5a68ff4d8.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/5b6427a3cc5563a2fb37f91b60545dd0.js"></script>
 
 

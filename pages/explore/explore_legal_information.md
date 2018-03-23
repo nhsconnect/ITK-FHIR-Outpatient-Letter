@@ -97,9 +97,7 @@ The Legal information section carries information about legal information perina
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- [Contract(ADRT and LPOA)](build_contracts.html)
-- [Observation(ADRT and LPOA)](build_observations.html)
-
+- The ITK FHIR Outpatient letter does not currently support coded legal information.
 
 
 
