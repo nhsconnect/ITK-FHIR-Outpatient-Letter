@@ -13,16 +13,16 @@ summary: "Gives information about the Allergies and adverse reactions section"
 The Allergies and adverse reactions section carries information about the patient's allergies and adverse reactions. Elements should be formatted as sub headings in any html sent.
 
 <table style="width:100%;max-width: 100%;">
-	<thead>
-		<tr>
-			<th width="18%">Section</th>
-			<th width="30%">Description</th>
-			<th width="11%">Cardinality</th>
-			<th width="11%">MRO*</th>
-			<th width="30%">Values</th>
-		</tr>
-	</thead>
-</tbody>
+ <thead>
+  <tr>
+   <th width="18%">Section</th>
+   <th width="30%">Description</th>
+   <th width="11%">Cardinality</th>
+   <th width="11%">MRO*</th>
+   <th width="30%">Values</th>
+  </tr>
+ </thead>
+ <tbody>
   <tr>
    <td>Allergies and adverse reactions</td>
    <td>The details of any known allergies, intolerances or adverse reactions.</td>
@@ -30,13 +30,13 @@ The Allergies and adverse reactions section carries information about the patien
    <td>mandatory</td>
    <td>&nbsp;</td>
   </tr>
-		<tr>
-			<th>Element</th>
-			<th>Description</th>
-			<th>Cardinality</th>
-			<th>MRO*</th>
-			<th>Values</th>
-		</tr>
+  <tr>
+   <th>Element</th>
+   <th>Description</th>
+   <th>Cardinality</th>
+   <th>MRO*</th>
+   <th>Values</th>
+  </tr>
   <tr>
    <td>Causative agent</td>
    <td>The agent such as food, drug or substances that has caused or may cause an allergy, intolerance or adverse reaction in this patient. Or "No known drug allergies or adverse reactions" Or "Information not available"</td>
@@ -64,13 +64,14 @@ The Allergies and adverse reactions section carries information about the patien
    <td>0 to 1</td>
    <td>required</td>
    <td>Coded text 
-<ul><li>Mild - The reaction was mild.[SNOMED-CT::255604002] (Mild (qualifier value)</li>
-<li>Moderate - The reaction was moderate.[SNOMED-CT::6736007] (Moderate (severity modifier) (qualifier value)</li>
-<li>Severe - The reaction was severe.[SNOMED-CT::24484000] (Severe (severity modifier) (qualifier value)</li>
-<li>Life threatening -  The reaction was life-threatening.[SNOMED-CT::442452003] (Life threatening severity (qualifier value)</li>
-<li>Fatal - The reaction was fatal.[SNOMED-CT::399166001] (Fatal (qualifier value))</li>
-</ul>
-</td>
+<ul>
+     <li>Mild - The reaction was mild.[SNOMED-CT::255604002] (Mild (qualifier value)</li>
+     <li>Moderate - The reaction was moderate.[SNOMED-CT::6736007] (Moderate (severity modifier) (qualifier value)</li>
+     <li>Severe - The reaction was severe.[SNOMED-CT::24484000] (Severe (severity modifier) (qualifier value)</li>
+     <li>Life threatening -  The reaction was life-threatening.[SNOMED-CT::442452003] (Life threatening severity (qualifier value)</li>
+     <li>Fatal - The reaction was fatal.[SNOMED-CT::399166001] (Fatal (qualifier value))</li>
+    </ul>
+   </td>
   </tr>
   <tr>
    <td>Certainty</td>
@@ -79,12 +80,12 @@ The Allergies and adverse reactions section carries information about the patien
    <td>required</td>
    <td>Text derived from SNOMED CT
 <ul>
-<li>Unlikely - The reaction is thought unlikely to have been caused by the agent.[SNOMED-CT::1491118016]</li>
-<li>Likely - The reaction is thought likely to have been caused by the agent.[SNOMED-CT::5961011]</li>
-<li>Certain - The agent is thought to be certain to have caused the reaction but this has not been confirmed by challenge testing.[SNOMED-CT::255545003] (Definite (qualifier value))t0018::</li>
-<li>Confirmed by challenge testing - The reaction to the agent has been confirmed by challenge testing or other concrete evidence.][SNOMED-CT::410605003] (Confirmed present (qualifier value))"</li>
-</ul>
-</td>
+     <li>Unlikely - The reaction is thought unlikely to have been caused by the agent.[SNOMED-CT::1491118016]</li>
+     <li>Likely - The reaction is thought likely to have been caused by the agent.[SNOMED-CT::5961011]</li>
+     <li>Certain - The agent is thought to be certain to have caused the reaction but this has not been confirmed by challenge testing.[SNOMED-CT::255545003] (Definite (qualifier value))t0018::</li>
+     <li>Confirmed by challenge testing - The reaction to the agent has been confirmed by challenge testing or other concrete evidence.][SNOMED-CT::410605003] (Confirmed present (qualifier value))"</li>
+    </ul>
+   </td>
   </tr>
   <tr>
    <td>Type of reaction</td>
@@ -93,12 +94,12 @@ The Allergies and adverse reactions section carries information about the patien
    <td>required</td>
    <td>Text derived from codes
 <ul>
-<li>Allergy</li>
-<li>Intolerance</li>
-<li>Adverse reaction</li>
-<li>Not known</li>
-</ul>
-</td>
+     <li>Allergy</li>
+     <li>Intolerance</li>
+     <li>Adverse reaction</li>
+     <li>Not known</li>
+    </ul>
+   </td>
   </tr>
   <tr>
    <td>Evidence</td>
