@@ -44,55 +44,6 @@ The Assessment scales section carries information about assessment scales used. 
    <td>optional</td>
    <td>Text. Content could include scale name, date and time of assessment and values recorded, including overall score. Format of assessment would be determined locally and may be tabular.</td>
   </tr>
-  <tr>
-   <td>&nbsp;</td>
-   <td>&nbsp;</td>
-   <td>&nbsp;</td>
-   <td>&nbsp;</td>
-   <td>&nbsp;</td>
-  </tr>
-  <tr>
-   <td>Section</td>
-   <td>Description</td>
-   <td>Cardinality</td>
-   <td>MRO*</td>
-   <td>Values</td>
-  </tr>
-  <tr>
-   <td>Diagnoses </td>
-   <td>A list of the patient's diagnoses.</td>
-   <td>0 to 1</td>
-   <td>required</td>
-   <td>&nbsp;</td>
-  </tr>
-  <tr>
-   <td>Element</td>
-   <td>Description</td>
-   <td>Cardinality</td>
-   <td>MRO*</td>
-   <td>Values</td>
-  </tr>
-  <tr>
-   <td>Diagnosis name</td>
-   <td>Confirmed diagnosis (or symptom); active diagnosis being treated.</td>
-   <td>0 to 1</td>
-   <td>required</td>
-   <td>SNOMED CT concept and/or free text. By preference the diagnosis or symptom is represented by a SNOMED CT concept. If this is not possible, a free text description of the diagnosis or symptom may be given.</td>
-  </tr>
-  <tr>
-   <td>Stage</td>
-   <td>Stage of the disease, where relevant</td>
-   <td>0 to 1</td>
-   <td>optional</td>
-   <td>Text.</td>
-  </tr>
-  <tr>
-   <td>Comment</td>
-   <td>Supporting text may be given covering diagnosis confirmation, active diagnosis being treated.</td>
-   <td>0 to 1</td>
-   <td>optional</td>
-   <td>Free text. This is the place to record differential and excluded diagnosis.</td>
-  </tr>
  </tbody>
 </table>
 
