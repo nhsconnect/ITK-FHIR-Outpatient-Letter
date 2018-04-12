@@ -287,8 +287,9 @@ Note: the examples of section HTML in this specification show only example html 
 
 
 ## Overview of Outpatient letter Sections and Coded profiles ##
-This diagram illustrates the sections used in Outpatient letter and which sections allow coded representation of the section text. 
-Due to the size of the image, this example is best viewed with the navigation side bar switched off <img src="images/engage/nav_shot.png" style="width:8%;max-width: 8%;">.
+This diagram illustrates the sections used in Outpatient letter and which sections allow coded representation of the section text.
+ 
+<a href="images/explore/OPL_composition_overview.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
 <img src="images/explore/OPL_composition_overview.png" style="width:auto;height: auto;"/>
 
