@@ -10,6 +10,22 @@ summary: Summary release notes of the versions released in ITK Outpatient letter
 {% include custom/search.warnbanner.html %}
 
 
+## 2.2.0-alpha ##
+
+**Profiles**
+
+All profiles have been updated to align with CareConnect profiles following INTEROPen curation.
+
+**Examples**
+All examples have been updated to align with CareConnect profiles following INTEROPen curation.
+
+**Section**
+
+The section Design & Build/Constructing Clinical Coded Structures has been updated to reflect the change to the approach following 
+INTEROPen curation process.
+
+## 2.1.0-alpha ##
+
 **Infrastructure Changes**
 
 Changed to align with the ITK3 Messaging Distribution specification version 2.1.0-beta.  
