@@ -56,12 +56,6 @@ The diagram shows the referencing for the Medication resource.
 
 <img src="images/explore/medication_referencing.png" style="width: 50%;max-width: 50%;">  
 
-## Flag (Medication) ##
-
-The diagram shows the referencing for the Flag resource for Medication.
-
-<img src="images/explore/medication_flag_referencing.png" style="width: 75%;max-width: 75%;"> 
-
 ## List (Allergy) ##
 
 The diagram shows the referencing for the List resource for Allergies.
@@ -74,11 +68,11 @@ The diagram shows the referencing for the AllergyIntolerance resource.
 
 <img src="images/explore/allergyIntolerance_referencing.png" style="width: 75%;max-width: 75%;"> 
 
-## Flag (Allergy) ##
+## List (Condition) ##
 
-The diagram shows the referencing for the Flag resource for Allergies.
+The diagram shows the referencing for the List resource for conditions.
 
-<img src="images/explore/allergy_flag_referencing.png" style="width: 75%;max-width: 75%;"> 
+<img src="images/explore/condition_list_referencing.png" style="width: 75%;max-width: 75%;"> 
 
 ## Condition ##
 
@@ -86,61 +80,17 @@ The diagram shows the referencing for the Condition resource.
 
 <img src="images/explore/condition_referencing.png" style="width: 75%;max-width: 75%;"> 
 
+## List (Procedure) ##
+
+The diagram shows the referencing for the List resource for procedures.
+
+<img src="images/explore/procedure_list_referencing.png" style="width: 75%;max-width: 75%;"> 
+
 ## Procedure ##
 
 The diagram shows the referencing for the Procedure resource.
 
 <img src="images/explore/procedure_referencing.png" style="width: 75%;max-width: 75%;"> 
-
-## Observation ##
-
-The diagram shows the referencing for the Observation resource.
-
-Note: there are several profiles for the Observation resource.
-
-**Generic ITK Observation**
-
-<img src="images/explore/observation_referencing.png" style="width: 75%;max-width: 75%;"> 
-
-**Occupational History Observation**
-
-<img src="images/explore/occupational_history_observation_referencing.png" style="width: 75%;max-width: 75%;"> 
-
-**Advance Decision to Refuse Treatment Observation**
-
-<img src="images/explore/ADRT_observation_referencing.png" style="width: 75%;max-width: 75%;"> 
-
-**Advance Statement Observation**
-
-<img src="images/explore/advance_statement_observation_referencing.png" style="width: 75%;max-width: 75%;"> 
-
-**Cognition Observation**
-
-<img src="images/explore/cognition_observation_referencing.png" style="width: 75%;max-width: 75%;">
-
-**Lasting Power of Attorney Observation** 
-
-<img src="images/explore/LPoA_observation_referencing.png" style="width: 75%;max-width: 75%;"> 
-
-**Accessible Information Observation** 
-
-<img src="images/explore/accessible_information_observation_referencing.png" style="width: 75%;max-width: 75%;"> 
-
-
-## Contract ##
-
-The diagram shows the referencing for the Contract resource. 
-
-Note: there are several profiles for the contract resource but they all have a similar structure.
-
-**Advance Statement Contract Profile**
-<img src="images/explore/contract_advance_statement_referencing.png" style="width: 75%;max-width: 75%;">
-
-**Advance Decision to Refuse Treatment Profile**
-<img src="images/explore/contract_ADRT_referencing.png" style="width: 75%;max-width: 75%;">
-
-**Lasting Power of Attorney Profile**
-<img src="images/explore/contract_LPoA_referencing.png" style="width: 75%;max-width: 75%;">
 
 ## Practitioner and Organization ##
 
