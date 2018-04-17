@@ -34,9 +34,6 @@ This documentation provides a FHIR document implmentation of the work done by th
 
 This guide has been created to support the adoption of NHS Digital defined FHIR Messages. As such the site is structured around stakeholders involved in building FHIR ITK Messaging Solutions including  ITK Messaging Solution users, developers and architects.  
 
-{% include custom/messaging_overview.svg %}
-
-The above steps outline a complete journey from imagination and exploring to developing local ITK Messaging Solutions using NHS Digital Messages, all the way to deploying a live ITK Messaging Solution.
 
 
 
