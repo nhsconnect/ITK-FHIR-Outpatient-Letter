@@ -19,25 +19,24 @@ The medication list is a “Snapshot” of the medication at a point in time (fo
 ## Resources Used for Profile Design ##
 The FHIR resources are profiled to create the medication list as below:
 
-- **[ITK-Medication-List-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Medication-List-1)** - An NHS Digital Profile for recording a snapshot of the list of Medications for the patient.
-- **[CareConnect-MedicationStatement-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationStatement-1)** - A CareConnect Profile for medication statements. The MedicationStatement Resource is a record of a medication that is being consumed by a patient.
-- **[CareConnect-Medication-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Medication-1)** - A CareConnect Profile for medication. The Medication Resource is primarily used for the identification and definition of a medication.
-- **[CareConnect-ITK-Medication-Flag-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Medication-Flag-1)** - An NHS Digital Profile for medication flags. The Flag Resource carries prospective warnings of potential issues related to the patient's medications.
+- **[CareConnect-ITK-Medication-List-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Medication-List-1)** - An NHS Digital Profile for recording a snapshot of the list of Medications for the patient.
+- **[CareConnect-ITK-MedicationStatement-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-MedicationStatement-1)** - An NHS Digital Profile for medication statements. The MedicationStatement Resource is a record of a medication that is being consumed by a patient.
+- **[CareConnect-ITK-Medication-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Medication-1)** - An NHS Digital Profile for medication. The Medication Resource is primarily used for the identification and definition of a medication.
 
 ## List ##
-This resource acts as a container for the medication. The following is a example of the elements which can be used:
+This resource acts as a container for the medication items. The following is an example of the elements which can be used:
 
-- identifier - uniquely identifies this list of medication (UUIDs)
+- identifier - uniquely identifies this list of medication (UUID)
 - status - active, completed, stopped etc
-- subject - reference to the patient whose medication list this is
-- encounter - reference to the context in which the list was created (the inpatient stay)
+- subject - a reference to the patient whose medication list this is
+- encounter - a reference to the context in which the list was created (the inpatient stay)
 - date - when the list was prepared
 - source - who or what defined the list
 - entry - a reference to the MedicationStatement resource entry
 - flag - the type of medication entry (additional, discontinued etc.)
 
 ## MedicationStatement ##
-A record of a medication that is being consumed by a patient.The following is a example of the elements that can be used:
+A record of a medication that is being consumed by a patient.The following is an example of the elements that can be used:
 
 - identifier - uniquely identifies this medication statement (UUID)
 - clinicStatus - should always be active
@@ -46,9 +45,9 @@ A record of a medication that is being consumed by a patient.The following is a 
 - effective - the date/time or interval when the medication was taken
 - dateAsserted - When the statement was asserted?
 - informationSource - Person or organization that provided the information about the taking of this medication
--  reasonCode - Reason for why the medication is being/was taken
--  reasonReference - a reference to the condition or observation resource that supports why the medication is being/was taken 
--  dosage - Details of how medication is/was taken or should be taken
+- reasonCode - Reason for why the medication is being/was taken
+- reasonReference - a reference to the condition or observation resource that supports why the medication is being/was taken 
+- dosage - Details of how medication is/was taken or should be taken
 
 ## Medication ##
 The Medication resource allows for medications to be characterized by the form of the drug and the ingredient (or ingredients), as well as how it is packaged. The medication will include the ingredient(s) and their strength(s) and the package can include the amount (for example, number of tablets, volume, etc.) that is contained in a particular container (for example, 100 capsules of Amoxicillin 500mg per bottle).The following is a example of the elements that can be used:
@@ -59,51 +58,33 @@ The Medication resource allows for medications to be characterized by the form o
 - package - details about packaged medications
 - batch - 	Identifies a single production run 
  
-## How the Medication Record is Constructed ##
-The medication record is constructed as a single list. The diagram below shows the Resources used and relationship between the Resources.
+## How the Medication List is Constructed ##
+The medication record is constructed as a single list. The diagram below shows the Resources used and the relationship between the Resources.
 
-<img src="images/build/medication_basic_structure.png" style="width:50%;max-width: 50%;">
+<img src="images/build/medication_basic_structure.png" style="width:100%;max-width: 100%;">
 
 
 There will be one medication statement for each of the medication items contained in the list.
 Each medication statement should have a medication, however it is possible in some cases that the medication is described in the medication statement because the medication cannot be fully coded within the medication Resource. 
 The medication Flag element of the List Resource will indicate the context of the medication statement(for example additional, discontinuation etc). the list of values for this is based on the FHIR value set [Patient Medicine Change Types](http://hl7.org/fhir/valueset-list-item-flag.html)  with additional and/or different values for NHS/ITK use. 
 
+## Medication Flag Structures ##
+
+<img src="images/build/medication_flag_structure.png" style="width:100%;max-width: 100%;">
+
 ## Changing Medication Illustration ##
 
-The list will use the FHIR Flag element of the list resource to indicate the context of the medication of statement, in this case the first in the list will be flagged as a discontinuation and the second as an additional medication. This structure is also used for Replacement medication (where one is replaced by another) and amended medication for example where a dosage or strength is changed.
+The list will use the FHIR Flag element of the list resource to indicate the context of the medication of statement, in this case the first in the list will be flagged as obsolete and the second as a new medication. 
 
-<img src="images/build/medication_change.png" style="width:80%;max-width: 80%;">
+<img src="images/build/medication_change_structure.png" style="width:100%;max-width: 100%;">
 
-## Do Not Discontinue Medication Illustration ##
-In the illustration below, a new medication is flagged as “Do not Discontinue” using the Flag resource. The Flag resource references the medication statement resource using the common extension.
-
-<img src="images/build/medication_do_not_discon.png" style="width:80%;max-width: 80%;"> 
-
-## Medication Change Example ##
-Example to show a discontinuation of a drug, which is replaced by a stronger dose with a Flag to show that the new medication should not be discontinued.
 
 **Medication List**
 
 The list part of the record. 
 <script src="https://gist.github.com/IOPS-DEV/396128c150948b3de78014ad7f2b8e4e.js"></script>
 
-**Medication Discontinuation**
+**Medication Changed**
 
-The medication being discontinued.
+The medication being changed.
 <script src="https://gist.github.com/IOPS-DEV/608bf5c9d3e200ef19f10ff1bf33244c.js"></script>
-
-**Medication Addition**
-
-The replacement for the medication discontinued.
-<script src="https://gist.github.com/IOPS-DEV/3e1e9c7cbab951dbb7d2861b63d811d4.js"></script>
-
-## Medication Do Not Discontinue Example ##
-
-**Do Not Discontinue Flag**
-
-This is a flag to indicate that the new stronger medication should not be discontinued.
-<script src="https://gist.github.com/IOPS-DEV/368ab3e1b84967a7ca9ce098f40c9a0b.js"></script>
- 
-
-
