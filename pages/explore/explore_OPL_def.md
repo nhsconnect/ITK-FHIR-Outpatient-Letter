@@ -15,7 +15,7 @@ This is the MessageDefinition instance for the ITK 3 Outpatient Letter document.
 
 - **Sender:**  Sending System
 - **Receiver:** Recipient System
-- **MessageDefinition:** ITK-OutpatientLetter-MessageDefinition-Instance-1
+- **MessageDefinition:** ITK-OPL-MessageDefinition-Instance-1
 
 
 <script src="https://gist.github.com/IOPS-DEV/a813114f9f779acfea4fce81df8231ed.js"></script>
