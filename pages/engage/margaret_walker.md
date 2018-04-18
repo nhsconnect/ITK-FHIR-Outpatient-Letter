@@ -54,10 +54,3 @@ Doris gives Margaret prescriptions for new medications and tells her that she ca
 
 <script src="https://gist.github.com/IOPS-DEV/4f07e9048566cbee14245ad6dea35e9d.js"></script>
 
-## Example Rendered Instance of Scenario ##
-
-This is a rendered example of the above XML example using an [exemplar stylesheet](https://github.com/nhsconnect/ITK3-FHIR-Documents-Renderer/tree/develop) created by NHS Digital. This style is currently draft and available for use on a AS IS BASIS. 
-
-Due to the size of the image, this example is best viewed with the navigation side bar switched off <img src="images/engage/nav_shot.png" style="width:8%;max-width: 8%;">.
-
-<img src="images/engage/margaret_01.png" style="width:100%;max-width: 100%;">

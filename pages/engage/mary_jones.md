@@ -43,10 +43,3 @@ No evidence of dental carries. Dr. Rimmer requests to orthopaedics for early app
 
 <script src="https://gist.github.com/IOPS-DEV/944c204f72f37498bb72797d2e391b84.js"></script>
 
-## Example Rendered Instance of Scenario ##
-
-This is a rendered example of the above XML example using an [exemplar stylesheet](https://github.com/nhsconnect/ITK3-FHIR-Documents-Renderer/tree/develop) created by NHS Digital. This style is currently draft and available for use on a AS IS BASIS. 
-
-Due to the size of the image, this example is best viewed with the navigation side bar switched off <img src="images/engage/nav_shot.png" style="width:8%;max-width: 8%;">.
-
-<img src="images/engage/mary_01.png" style="width:100%;max-width: 100%;">
