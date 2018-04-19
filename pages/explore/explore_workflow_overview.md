@@ -9,9 +9,9 @@ summary: "Overview of the work flow section"
 
 {% include custom/search.warnbanner.html %}
 
-## ITK Work Flow For Outpatient letter ##
+## ITK Work Flow For Outpatient Letter ##
 
-This section documents work flow associated with the Outpatient letter. The subsections show the resources that may be associated with work flow.
+This section documents work flow associated with the Outpatient Letter. The subsections show the resources that may be associated with work flow.
  
 
 

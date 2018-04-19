@@ -56,7 +56,7 @@ The Assessment scales section carries information about assessment scales used. 
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR Outpatient letter does not currently support coded assessment scales.
+- The ITK FHIR Outpatient Letter does not currently support coded assessment scales.
 
 
 

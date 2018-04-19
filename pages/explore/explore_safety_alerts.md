@@ -71,6 +71,6 @@ The Safety alerts section carries safety alerts associated with the patient. Ele
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR Outpatient letter does not currently support a coded safety alerts details.
+- The ITK FHIR Outpatient Letter does not currently support a coded safety alerts details.
 
 

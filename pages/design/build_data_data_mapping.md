@@ -12,8 +12,8 @@ summary: "Mapping of system data to ITK Message and Document resources"
 ## What is ITK Messaging Solution Data Mapping? ##
 
 
-Any ITK 3 Messaging Solution will require some mapping to the FHIR resources included in the message bundle. For documents the data will also need to be mapped to the sections of the document. 
-The sender of the ITK 3 Document will need to either create Bundle and MessageHeader data items or source from them from its own data store. When it sources from its own data store then a mapping will need to be done. Some data items such as UUIDs for identifiers for example will always need to be created by sending systems. 
+Any ITK3 Messaging Solution will require some mapping to the FHIR resources included in the message bundle. For documents the data will also need to be mapped to the sections of the document. 
+The sender of the ITK3 Document will need to either create Bundle and MessageHeader data items or source from them from its own data store. When it sources from its own data store then a mapping will need to be done. Some data items such as UUIDs for identifiers for example will always need to be created by sending systems. 
 
 
 

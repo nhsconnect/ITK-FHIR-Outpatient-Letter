@@ -1,14 +1,14 @@
 ---
-title: Introduction to ITK Outpatient letter
+title: Introduction to ITK Outpatient Letter
 keywords: homepage
 tags: [overview]
 sidebar: overview_sidebar
 permalink: index.html
 toc: false
-summary: A brief introduction to getting started with the ITK Outpatient letter.
+summary: A brief introduction to getting started with the ITK Outpatient Letter.
 ---
 
-{% include important.html content="This site is under active development by NHS Digital and is intended to provide all the technical resources you need to successfully develop the ITK Outpatient letter components of FHIR messaging. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis." %}
+{% include important.html content="This site is under active development by NHS Digital and is intended to provide all the technical resources you need to successfully develop the ITK Outpatient Letter components of FHIR messaging. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis." %}
 
 {% include warning.html content="This site is provided for information only and is intended for those engaged with NHS Digital in the development of FHIR Messaging. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
@@ -16,9 +16,9 @@ summary: A brief introduction to getting started with the ITK Outpatient letter.
 
 ## Introduction ##
 
-The Transfer Of Care Outpatient letter  Specification supports the following care communications:
+The Transfer Of Care Outpatient Letter  Specification supports the following care communications:
 
-**Outpatient letter Document** – An ITK FHIR Document containing Transfer of Care information supporting between the hospital clinic and the GP and other relevant parties following a consultation in a clinic.
+**Outpatient Letter Document** – An ITK FHIR Document containing Transfer of Care information supporting between the hospital clinic and the GP and other relevant parties following a consultation in a clinic.
    
 FHIR Messaging components specified within this site have been developed by NHS Digital and use some of the CareConnect profiles created in collaboration with the INTEROPen community. 
 

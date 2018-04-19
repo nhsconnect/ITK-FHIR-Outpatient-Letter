@@ -4,7 +4,7 @@ keywords: development, versioning
 tags: [development]
 sidebar: overview_sidebar
 permalink: overview_release_notes.html
-summary: Summary release notes of the versions released in ITK Outpatient letter Implementation Guide
+summary: Summary release notes of the versions released in ITK Outpatient Letter Implementation Guide
 ---
 
 {% include custom/search.warnbanner.html %}

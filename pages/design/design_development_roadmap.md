@@ -4,10 +4,10 @@ keywords: development,
 tags: [engage,development,fhir]
 sidebar: overview_sidebar
 permalink: design_development_roadmap.html
-summary: ITK Outpatient letter roadmap outlines the development schedule for the RESTful APIs.
+summary: ITK Outpatient Letter roadmap outlines the development schedule for the RESTful APIs.
 
 ---
 
-[<i class="fa fa-arrow-left" aria-hidden="true"/> Back to ITK Outpatient letter - Introduction.](index.html)
+[<i class="fa fa-arrow-left" aria-hidden="true"/> Back to ITK Outpatient Letter - Introduction.](index.html)
 
 {% include important.html content="All development phases outlined below are indicative and subject to on-going review." %}

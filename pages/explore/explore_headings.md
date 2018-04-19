@@ -1,17 +1,17 @@
 ---
-title: Outpatient letter Headings
+title: Outpatient Letter Headings
 keywords:  messaging
 tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_headings.html
-summary: "Overview of the Outpatient letter headings"
+summary: "Overview of the Outpatient Letter headings"
 ---
 
 {% include custom/search.warnbanner.html %}
 
 ## Overview ##
 
-This section provides a list of the AMoRC headings used for text sections in the ITK FHIR Outpatient letter based on the "Standards for the clinical structure and content of patient records" documentation. 
+This section provides a list of the PRSB headings used for text sections in the ITK FHIR Outpatient Letter based on the "Standards for the clinical structure and content of patient records" documentation. 
 
 This section lists the following
 
@@ -26,7 +26,7 @@ Note: the examples of section HTML in this specification show only example html 
 
 <img src="images/explore/section_description.png" style="width:90%;max-width: 90%;"/>
  
-## Headings Used By Outpatient letter ##
+## Headings Used By Outpatient Letter ##
 
 <table>
 	<tr>
@@ -286,8 +286,8 @@ Note: the examples of section HTML in this specification show only example html 
 
 
 
-## Overview of Outpatient letter Sections and Coded profiles ##
-This diagram illustrates the sections used in Outpatient letter and which sections allow coded representation of the section text.
+## Overview of Outpatient Letter Sections and Coded profiles ##
+This diagram illustrates the sections used in Outpatient Letter and which sections allow coded representation of the section text.
  
 <a href="images/explore/OPL_composition_overview.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 

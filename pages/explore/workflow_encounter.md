@@ -11,13 +11,11 @@ summary: "Overview of work flow using encounter resource."
 
 ## Overview ##
 
-The Outpatient Letter does not support any real "workflow" but uses the encounter resource to give context to the information contained in the eDischarge document. The encounter resource represent the inpatient stay and can contain important information such as:
+The Outpatient Letter does not support any real "workflow" but uses the encounter resource to give context to the information contained in the Outpatient Letter document. The encounter resource represents the outpatient appointment and can contain important information such as:
  
-- When the patient was admitted
-- Why the patient was admitted
-- When the patient was discharged
-- When the patient was discharged to
-- Who was involved in the encounter
+- When the patient attended the appointment
+- Why the patient attended the appointment
+- Who was involved in the appointment
 
 The encounter can be referenced by the following resources:
 

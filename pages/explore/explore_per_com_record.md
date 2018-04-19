@@ -100,7 +100,7 @@ The Person completing record section carries information about the person who co
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR Outpatient letter does not currently support coded Person completing record information.
+- The ITK FHIR Outpatient Letter does not currently support coded Person completing record information.
 
 
 

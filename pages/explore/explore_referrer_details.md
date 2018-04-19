@@ -55,7 +55,7 @@ The Referrer details section carries a narrative summary of the episode, where p
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR Outpatient letter does not currently support coded referrer details.
+- The ITK FHIR Outpatient Letter does not currently support coded referrer details.
 
 
 

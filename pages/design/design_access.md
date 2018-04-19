@@ -11,7 +11,7 @@ summary: Describes the steps required to design & build an ITK Messaging Solutio
 
 ## Background ##
 
-The Design & Build section contains descriptions of approaches and suggestions for building ITK Messaging Solutions using the ITK Outpatient letter components in conjunction with NHS Digital Payload specifications. The payload specification must be consulted for specific domain or payload information.
+The Design & Build section contains descriptions of approaches and suggestions for building ITK Messaging Solutions using the ITK Outpatient Letter components in conjunction with NHS Digital Payload specifications. The payload specification must be consulted for specific domain or payload information.
 
 
 | Page              |  Description    |

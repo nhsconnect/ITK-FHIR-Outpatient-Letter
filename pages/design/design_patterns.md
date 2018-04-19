@@ -11,7 +11,7 @@ summary: "The Design Patterns / Topology demonstrates and describes how various 
 
 # Patterns #
 
-This section has been included to emphasise the use of design patterns in to the process of deciding how to use ITK Outpatient letter within ITK Messaging Solutions. The information has been taken from [developer.nhs.uk](https://developer.nhs.uk/library/architecture/integration-patterns/information-sharing-patterns-summary/).
+This section has been included to emphasise the use of design patterns in to the process of deciding how to use ITK Outpatient Letter within ITK Messaging Solutions. The information has been taken from [developer.nhs.uk](https://developer.nhs.uk/library/architecture/integration-patterns/information-sharing-patterns-summary/).
 
 ## Overview ## 
 
@@ -36,9 +36,9 @@ Below is a list of patterns. If you require more detail please go to [developer.
 - Registry Repository
 - Publish Subscribe
 
-# Patterns and ITK Outpatient letter Based ITK Messaging Solutions  #
+# Patterns and ITK Outpatient Letter Based ITK Messaging Solutions  #
 
-Considering the design pattern / topology influences how any exposed ITK Outpatient letter based ITK Messaging Solutions can be used and work within a system. ITK Messaging Solutions help to expose information to all design patterns allowing great user experiences to be created quickly, securely and consistantly. 
+Considering the design pattern / topology influences how any exposed ITK Outpatient Letter based ITK Messaging Solutions can be used and work within a system. ITK Messaging Solutions help to expose information to all design patterns allowing great user experiences to be created quickly, securely and consistantly. 
 
 
 

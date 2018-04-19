@@ -55,7 +55,7 @@ This is to flag participation in a clinical trial. Elements should be formatted 
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR Outpatient letter does not currently support coded participation in research information.
+- The ITK FHIR Outpatient Letter does not currently support coded participation in research information.
 
 
 

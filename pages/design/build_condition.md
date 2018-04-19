@@ -34,7 +34,7 @@ This resource is used to record detailed information about a condition, problem,
 
 - identifier - uniquely identifies this condition (UUIDs)
 - clinicalStatus - 	active, recurrence, inactive, remission, resolved etc
-- category - for eDischarge this will normally be encounter-diagnosis
+- category - for Outpatient Letters this will normally be encounter-diagnosis
 - Severity - subjective severity of condition
 - code - identification of the condition, problem or diagnosis
 - bodySite - anatomical location, if relevant

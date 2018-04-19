@@ -11,7 +11,7 @@ summary: "Outpatient Letter Message Definition"
 
 ## Outpatient Letter Definition Overview ##
 
-This is the MessageDefinition instance for the ITK 3 Outpatient Letter document.
+This is the MessageDefinition instance for the ITK3 Outpatient Letter document.
 
 - **Sender:**  Sending System
 - **Receiver:** Recipient System
