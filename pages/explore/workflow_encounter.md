@@ -11,7 +11,7 @@ summary: "Overview of work flow using encounter resource."
 
 ## Overview ##
 
-The Outpatient Letter does not support any real "workflow" but uses the encounter resource to give context to the information contained in the Outpatient Letter document. The encounter resource represents the outpatient appointment and can contain important information such as:
+The Outpatient Letter does not support any real "workflow" but uses the encounter Resource to give context to the information contained in the Outpatient Letter document. The encounter Resource represents the outpatient appointment and can contain important information such as:
  
 - When the patient attended the appointment
 - Why the patient attended the appointment

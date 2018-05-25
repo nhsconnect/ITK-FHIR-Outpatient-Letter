@@ -15,7 +15,7 @@ This section details the design approach using FHIR resources to support the AoM
 
 ## Resources Used for Profile Design ##
 
-The FHIR FamilyMemberHistory resource is profiled to create the family member history as follows:
+The FHIR FamilyMemberHistory Resource is profiled to create the family member history as follows:
 
 - **[ITK-FamilyMemberHistory-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-FamilyMemberHistory-1)** - A NHS Digital Profile for family member history. 
 
