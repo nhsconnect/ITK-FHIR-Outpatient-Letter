@@ -10,7 +10,7 @@ summary: "Gives information about the Allergies and adverse reactions section"
 {% include custom/section.warnbanner.html %}
 
 ## Allergies and Adverse Reactions Section Content##
-The Allergies and adverse reactions section carries information about the patient's allergies and adverse reactions. Elements should be formatted as sub headings in any html sent.
+The Allergies and adverse reactions section carries information about the patient's allergies and adverse reactions. Elements should be formatted as sub headings in any HTML sent.
 
 <table style="width:100%;max-width: 100%;">
  <thead>

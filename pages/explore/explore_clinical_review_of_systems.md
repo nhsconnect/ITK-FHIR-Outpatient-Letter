@@ -10,7 +10,7 @@ summary: "Gives information about the Clinical review of systems section"
 {% include custom/section.warnbanner.html %}
 
 ## Clinical Review of Systems Section Content##
-The Clinical review of systems section carries a narrative summary of the episode. Where possible, very brief. Elements should be formatted as sub headings in any html sent.
+The Clinical review of systems section carries a narrative summary of the episode. Where possible, very brief. Elements should be formatted as sub headings in any HTML sent.
 
 <table style="width:100%;max-width: 100%;">
 	<thead>

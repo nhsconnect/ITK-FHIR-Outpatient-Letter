@@ -10,7 +10,7 @@ summary: "Gives information about the Relevant clinical risk factors section"
 {% include custom/section.warnbanner.html %}
 
 ## Relevant Clinical Risk Factors Section Content##
-The Relevant clinical risk factors section carries information about relevant clinical risk factors for the patient. Elements should be formatted as sub headings in any html sent.
+The Relevant clinical risk factors section carries information about relevant clinical risk factors for the patient. Elements should be formatted as sub headings in any HTML sent.
 
 <table style="width:100%;max-width: 100%;">
 	<thead>
