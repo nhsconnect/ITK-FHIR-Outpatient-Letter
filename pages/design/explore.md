@@ -20,7 +20,7 @@ This section gives details of the document profiles and associated transport and
 
 - SHALL support HL7 FHIR version STU3
 - When using ITK3 and MESH SHALL implement ITK3 Sender and/or Receiver Responsibilities as per [ITK3 Sender and Receiver Requirements](..\explore_snd&rec_req.html)
-- Resources sent SHALL identify the CareConnect profile where a CareConnect profile is included in the bundle using the [FHIR Base Resource](https://hl7.org/fhir/resource-definitions.html#Resource.meta)
+- Resources sent SHALL identify the CareConnect Profile where a CareConnect Profile is included in the bundle using the [FHIR Base Resource](https://hl7.org/fhir/resource-definitions.html#Resource.meta)
 - SHALL support XML format for all NHS Digital ITK3 interactions.
 
 

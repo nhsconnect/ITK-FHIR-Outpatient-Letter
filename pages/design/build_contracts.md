@@ -10,7 +10,7 @@ summary: "Constructing a contract"
 {% include important.html content="The resources referenced in this section are the FHIR base resources which will be constrained by the profiles used by Outpatient Letter, the profiles should be referred to for the actually allowable structure and content." %}
 
 ## Overview ##
-This section details the design approach using FHIR resources to support the AoMRC heading model which use the Contract resource. The Contract resource is used for legal contracts such as Power of Attorney, Advance Statements, Advance decision to refuse treatment etc. The Contract resource may reference anything using the topic element to give the context of contract, this is constrained to an observation in the ITK profiles. The Observation profile is then further constrained to give the context applicable to the specific contract. The contract resource may contain a attachment which holds a copy of the actual document. 
+This section details the design approach using FHIR resources to support the AoMRC heading model which use the Contract resource. The Contract resource is used for legal contracts such as Power of Attorney, Advance Statements, Advance decision to refuse treatment etc. The Contract resource may reference anything using the topic element to give the context of contract, this is constrained to an observation in the ITK profiles. The Observation Profile is then further constrained to give the context applicable to the specific contract. The contract resource may contain a attachment which holds a copy of the actual document. 
 
 ## Basic Structure of Contract Profiles ##
 
