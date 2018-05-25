@@ -67,7 +67,7 @@ The Relevant clinical risk factors section carries information about relevant cl
 
 ## Coded Resources ##
 
-- The ITK FHIR Outpatient Letter does not currently support a coded relevant clinical risk factors.
+The ITK FHIR Outpatient Letter does not currently support coded relevant clinical risk factors information.
 
  
 

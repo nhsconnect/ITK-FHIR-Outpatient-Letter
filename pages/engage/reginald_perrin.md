@@ -10,7 +10,7 @@ summary: "Example scenario - Reginald Perrin Outpatient Letter"
 {% include custom/search.warnbanner.html %}
 
 ## Background ##
-Reginald attends an outpatient appointment at St Crispin’s Hospital having been previously referred by Michael McMonagle who is the Occupational Therapist at the Head Injury Team of St Crispin’s Hospital.Reginald was experiencing diplopia.
+Reginald attends an outpatient appointment at St Crispin’s Hospital having been previously referred by Michael McMonagle who is the Occupational Therapist at the Head Injury Team of St Crispin’s Hospital. Reginald was experiencing diplopia.
 
 ## The Outpatient Encounter ##
 
@@ -28,7 +28,7 @@ The Outpatient encounter carried in the [Encounter Resource](https://fhir.nhs.uk
 - Hospital - **St Crispin’s Hospital** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
 
 
-During the Outpatients encounter Robert diagnoses Reginald with Right hypertropia and fits a prism to his glasses to relieve it.
+During the Outpatient encounter Robert diagnoses Reginald with Right hypertropia and fits a prism to his glasses to relieve it.
 He refers Reginald to an ophthalmologist. He also advises him to inform the DVLA regarding the diplopia and fresnel prism. 
 
 

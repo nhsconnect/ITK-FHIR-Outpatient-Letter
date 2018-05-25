@@ -17,7 +17,7 @@ This is the MessageDefinition instance for the ITK3 Outpatient Letter document.
 - **Receiver:** Recipient System
 - **MessageDefinition:** ITK-OPL-MessageDefinition-Instance-1
 
-The message definition conforms to the following profile:[ITK-MessageDefinition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageDefinition-1)
+The message definition conforms to the following profile: [ITK-MessageDefinition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageDefinition-1)
 
 The message definition is available as a HTML rendered version for human consumption [Outpatient Letter MessageDefinition rendered](https://fhir.nhs.uk/STU3/MessageDefinition/ITK-OPL-MessageDefinition-Instance-1) 
 

@@ -258,7 +258,7 @@ Note: the examples of section HTML in this specification show only example HTML 
   <td>
    <a href="explore_clinical_risk_factors.html">Relevant clinical risk factors</a>
   </td>
-  <td>1052891000000108</td>
+  <td>886821000000100</td>
   <td>0..1</td>
   <td>Optional</td>
 <td>0</td>

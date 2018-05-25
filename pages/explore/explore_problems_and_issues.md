@@ -54,7 +54,9 @@ The Problems and issues section carries information about problems and issues. E
 
 ## Coded Resources ##
 
-- The ITK FHIR Outpatient Letter does not currently support a coded problems and issues.
+The ITK FHIR Outpatient Letter does not currently support coded coded problems and issues information.
+
+
 
  
 

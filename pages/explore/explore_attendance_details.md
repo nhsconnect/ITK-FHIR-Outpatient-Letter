@@ -10,7 +10,7 @@ summary: "Gives information about the Attendance details section"
 {% include custom/section.warnbanner.html %}
 
 ## Attendance Details Section Content##
-The Attendance details section carries information about the patient's attendance at the outpatients department. Elements should be formatted as subheadings in any HTML sent:
+The Attendance details section carries information about the patient's attendance at the Outpatient department. Elements should be formatted as subheadings in any HTML sent:
 
 <table style="width:100%;max-width: 100%;">
 	<thead>

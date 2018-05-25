@@ -60,12 +60,9 @@ The Patient and carer concerns, expectations and wishes section carries informat
 
 ## Coded Resources ##
 
-This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
+The ITK FHIR Outpatient Letter does not currently support coded Patient and Carer Concerns, Expectations and Wishes information.
 
-This text section should be linked to the following FHIR Resources to provide the textual information in a coded format for the Advance Statement.
 
-- [Contract(Advance Statement)](build_contracts.html)
-- [Observation(Advance Statement)](build_observations.html)
 
 
 
