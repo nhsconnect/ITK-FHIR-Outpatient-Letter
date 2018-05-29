@@ -21,7 +21,7 @@ The message definition conforms to the following profile: [ITK-MessageDefinition
 
 The message definition is available as a HTML rendered version for human consumption [Outpatient Letter MessageDefinition rendered](https://fhir.nhs.uk/STU3/MessageDefinition/ITK-OPL-MessageDefinition-Instance-1) 
 
-The xml version for machine processing is available as a GIST file see below.
+The XML version for machine processing is available as a GIST file see below.
 
 
 <script src="https://gist.github.com/IOPS-DEV/a813114f9f779acfea4fce81df8231ed.js"></script>
