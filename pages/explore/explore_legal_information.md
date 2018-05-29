@@ -97,7 +97,7 @@ The Legal information section carries information about legal information pertin
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR Outpatient Letter does not currently support coded legal information.
+- The ITK3 FHIR Outpatient Letter does not currently support coded legal information.
 
 
 

@@ -55,7 +55,7 @@ The Clinical review of systems section carries a narrative summary of the inform
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR Outpatient Letter does not currently support coded clinical review of systems information.
+- The ITK3 FHIR Outpatient Letter does not currently support coded clinical review of systems information.
 
 
 

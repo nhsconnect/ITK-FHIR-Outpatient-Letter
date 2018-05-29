@@ -11,7 +11,7 @@ summary: "Overview of the Outpatient Letter headings"
 
 ## Overview ##
 
-This section provides a list of the PRSB headings used for text sections in the ITK FHIR Outpatient Letter based on the "Standards for the clinical structure and content of patient records" documentation. 
+This section provides a list of the PRSB headings used for text sections in the ITK3 FHIR Outpatient Letter based on the "Standards for the clinical structure and content of patient records" documentation. 
 
 This section lists the following
 

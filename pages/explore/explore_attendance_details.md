@@ -134,7 +134,7 @@ The Attendance details section carries information about the patient's attendanc
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR Outpatient Letter does not currently support coded Attendance details.
+- The ITK3 FHIR Outpatient Letter does not currently support coded Attendance details.
 
 
 

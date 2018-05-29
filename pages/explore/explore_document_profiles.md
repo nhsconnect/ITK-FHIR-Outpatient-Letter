@@ -4,19 +4,19 @@ keywords:  documents
 tags: [fhir,messaging,documents]
 sidebar: foundations_sidebar
 permalink: explore_document_profiles.html
-summary: "ITK Outpatient Letter FHIR Document profile"
+summary: "ITK3 Outpatient Letter FHIR Document profile"
 ---
 
 {% include custom/search.warnbanner.html %}
 
 
-## ITK Outpatient Letter FHIR Document Bundle ##
+## ITK3 Outpatient Letter FHIR Document Bundle ##
 
 The document bundle is a collection of FHIR Resource profiles combined to support Outpatient Letter (inpatient discharge summary) FHIR Documents.
 
 The Bundle consists of the following FHIR Resource Profiles.
 
-- **[ITK-Document-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Document-Bundle-1)** - An NHS Digital Bundle Profile to represent a container to collect a combination of the ITK FHIR Document resources.
+- **[ITK-Document-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Document-Bundle-1)** - An NHS Digital Bundle Profile to represent a container to collect a combination of the ITK3 FHIR Document resources.
 - **[CareConnect-ITK-OPL-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-OPL-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile composition. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents.
 - **[CareConnect-ITK-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)** - A NHS Digital Profile derived from the CareConnect encounter profile. The encounter Resource represents an encounter between a care professional and the patient (or patient's record).
 - **[CareConnect-ITK-Medication-List-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Medication-List-1)** - An NHS Digital Profile derived from the CareConnect List Profile for recording a snapshot of the list of Medications for the patient.
@@ -41,9 +41,9 @@ The Bundle consists of the following FHIR Resource Profiles.
 			
 For a complete definition of the Outpatient Letter document see the section on [message definitions.](explore_defs_overview.html)
 
-## ITK Outpatient Letter FHIR Document Profile Referencing ##
+## ITK3 Outpatient Letter FHIR Document Profile Referencing ##
 
-The diagram shows the referencing between the profiles in the bundle which make up the ITK Outpatient Letter FHIR Document.
+The diagram shows the referencing between the profiles in the bundle which make up the ITK3 Outpatient Letter FHIR Document.
 
 When using ITK3 there is an outer bundle structure which is called the [ITK3 Send Payload Bundle structure](https://nhsconnect.github.io/ITK3-FHIR-Messaging-Distribution/explore_messages.html#itk-send-payload-bundle-diagram) for use with ITK3. 
 
@@ -53,7 +53,7 @@ This diagram only goes to one level due to the complexity and size of the docume
 
 <img src="images/explore/outpatientletter_message_bundle.png" style="width:80%;max-width: 80%;"> 
 
-## ITK Outpatient Letter Bundle Example ##
+## ITK3 Outpatient Letter Bundle Example ##
 
 <script src="https://gist.github.com/IOPS-DEV/e34faf1969470b219b403b98df66593c.js"></script>
 

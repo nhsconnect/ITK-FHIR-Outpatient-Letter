@@ -63,7 +63,7 @@ For example a Referral Request will typically contain supporting information suc
     </tr>
     <tr>
         <td>
-            ITK Outpatient LetterHeader
+            ITK3 Outpatient LetterHeader
         </td>
     </tr>
     <tr>

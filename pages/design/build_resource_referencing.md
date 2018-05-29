@@ -18,9 +18,9 @@ The diagrams only go to one level due to the complexity and size of the message.
 
 
 
-## ITK Outpatient Letter FHIR Document ##
+## ITK3 Outpatient Letter FHIR Document ##
 
-The diagram shows the referencing between the profiles in the bundle which make up the ITK Outpatient Letter FHIR Document.
+The diagram shows the referencing between the profiles in the bundle which make up the ITK3 Outpatient Letter FHIR Document.
 
 When using ITK3 there is an outer bundle structure which is called the [ITK3 send Payload bundle structure](https://nhsconnect.github.io/ITK3-FHIR-Messaging-Distribution/explore_bundle_overview.html) for use with ITK3.
 

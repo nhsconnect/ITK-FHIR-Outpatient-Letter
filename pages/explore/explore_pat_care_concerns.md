@@ -60,7 +60,7 @@ The Patient and carer concerns, expectations and wishes section carries informat
 
 ## Coded Resources ##
 
-The ITK FHIR Outpatient Letter does not currently support coded Patient and Carer Concerns, Expectations and Wishes information.
+The ITK3 FHIR Outpatient Letter does not currently support coded Patient and Carer Concerns, Expectations and Wishes information.
 
 
 
