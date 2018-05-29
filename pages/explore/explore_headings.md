@@ -295,7 +295,7 @@ This diagram illustrates the sections used in Outpatient Letter and which sectio
 
 
 
-The text sections are carried in the FHIR composition resource. 
+The text sections are carried in the FHIR Composition Resource. 
 This is profiled as the [ITK-OPL-Compostion](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-OPL-Composition-1)
 
 
