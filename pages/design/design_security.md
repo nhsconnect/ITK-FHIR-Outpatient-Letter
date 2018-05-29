@@ -4,7 +4,7 @@ keywords: design, build, access, security
 tags: [design]
 sidebar: foundations_sidebar
 permalink: design_security.html
-summary: "The security page shows how to establish initial security credentials (where necessary) with the a ITK3 Messaging Solution"
+summary: "The security page shows how to establish initial security credentials (where necessary) with the an ITK3 Messaging Solution"
 ---
 
 {% include important.html content="The ITK3 Messaging Solution security described in this section is not meant to be complete but a starting point to understand some design considerations to consider when implementing ITK3 Messaging Solutions." %}
