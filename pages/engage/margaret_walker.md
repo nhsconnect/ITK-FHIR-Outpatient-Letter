@@ -10,7 +10,7 @@ summary: "Example scenario - Margaret Walker Outpatient Letter"
 {% include custom/search.warnbanner.html %}
 
 ## Background ##
-Margaret attends an appointment at St Crispin’s Hospital palliative care outpatient clinic accompanied by her daughter Karen. Margaret was referred for review of symptom control.
+Margaret attends an appointment at St Crispin’s Hospital palliative care Outpatient clinic accompanied by her daughter Karen. Margaret was referred for review of symptom control.
 
  Margaret has been on pazopanib since May 2017. She had a right nephrectomy for clear cell renal carcinoma in Sept 2016, and now has metastatic disease. Margaret struggles with pain predominantly around the right upper quadrant of her abdomen and this goes all the way round to the back, at worst described as 10/10.  She has been reluctant to take full dose of Co-codamol and she intermittently takes one tablet at a time (30/500mg). Karen believes her mother has a high pain tolerance level and tends to underplay her symptoms. Margaret finds herself tiring out by the second half of the day, particularly if she has done a bit more than usual earlier on. 
  

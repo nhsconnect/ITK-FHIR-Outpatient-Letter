@@ -10,7 +10,7 @@ summary: "Example scenario - Sam Beckett Outpatient Letter Scenario"
 {% include custom/search.warnbanner.html %}
 
 ## Background ##
-Sam who is a Polish national attends an outpatient appointment at St Crispin’s Hospital having been referred by Dr. William Yates who is a Dermatology Consultant at St Crispin’s Hospital. She has a potential Squamous cell carcinoma to the left forearm. She has rapidly growing lesion to left forearm for last 10 months. She has seen dermatologists who have assessed and referred on to Plastics for surgical excision and possible skin grafting after the lesion is excised. Sam's father died of melanoma at 62 years old. Sam lives with her husband. She is a factory worker, does not smoke and her alcohol intake is rare.
+Sam who is a Polish national attends an Outpatient appointment at St Crispin’s Hospital having been referred by Dr. William Yates who is a Dermatology Consultant at St Crispin’s Hospital. She has a potential Squamous cell carcinoma to the left forearm. She has rapidly growing lesion to left forearm for last 10 months. She has seen dermatologists who have assessed and referred on to Plastics for surgical excision and possible skin grafting after the lesion is excised. Sam's father died of melanoma at 62 years old. Sam lives with her husband. She is a factory worker, does not smoke and her alcohol intake is rare.
 
 ## The Outpatient Encounter ##
 

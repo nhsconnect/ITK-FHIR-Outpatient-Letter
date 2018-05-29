@@ -41,7 +41,7 @@ The History section carries history related to the patient's previous care. Elem
    <td>Patient stated reason for referral. This may include any discussions that took place, the level of shared decision making involved, information about patient's source of advice. This may be expressed on behalf of the patient, eg by parent or carer.</td>
    <td>0 to 1</td>
    <td>optional</td>
-   <td>The patient's reason for referral information will normally be provided during the outpatient consultation. Text</td>
+   <td>The patient's reason for referral information will normally be provided during the Outpatient consultation. Text</td>
   </tr>
   <tr>
    <td>Presenting complaints or issue</td>

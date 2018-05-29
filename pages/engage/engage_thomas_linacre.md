@@ -10,7 +10,7 @@ summary: "Example scenario - Thomas Linacre Outpatient Letter"
 {% include custom/search.warnbanner.html %}
 
 ## Background ##
-Mr. Tom Linacre attends an outpatient appointment at St Crispin’s Hospital having been previously referred by Sugra Bibi. This was because Tom was recently readmitted to hospital following a stroke which left him with swallowing difficulties. During the hospital stay Mr. Linacre was established on a PEG tube feeding. The feeding tube insitu is a 15French PEG tube placed 05/04/17. The regimen being: 1000mls Energy Multifibre Feed at 100mls/hours for 10 hours (9am-7pm) with 1400mls water given as divided flushes (e.g. 10x140mls) throughout the day e.g. before and after feed and with medications. 
+Mr. Tom Linacre attends an Outpatient appointment at St Crispin’s Hospital having been previously referred by Sugra Bibi. This was because Tom was recently readmitted to hospital following a stroke which left him with swallowing difficulties. During the hospital stay Mr. Linacre was established on a PEG tube feeding. The feeding tube insitu is a 15French PEG tube placed 05/04/17. The regimen being: 1000mls Energy Multifibre Feed at 100mls/hours for 10 hours (9am-7pm) with 1400mls water given as divided flushes (e.g. 10x140mls) throughout the day e.g. before and after feed and with medications. 
 
 ## The Outpatient Encounter ##
 

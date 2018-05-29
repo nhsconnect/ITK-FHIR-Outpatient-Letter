@@ -10,7 +10,7 @@ summary: "Example scenario - Ophelia Gently Outpatient Letter"
 {% include custom/search.warnbanner.html %}
 
 ## Background ##
-Miss Gently was referred to the rheumatology outpatient clinic by her GP due to multiple joint pain which was causing her to not sleep well. She has previously been diagnosed with Type 1 diabetes and hypothyroidism. 
+Miss Gently was referred to the rheumatology Outpatient clinic by her GP due to multiple joint pain which was causing her to not sleep well. She has previously been diagnosed with Type 1 diabetes and hypothyroidism. 
 
 ## The Outpatient Encounter ##
 

@@ -10,7 +10,7 @@ summary: "Example scenario - Reginald Perrin Outpatient Letter"
 {% include custom/search.warnbanner.html %}
 
 ## Background ##
-Reginald attends an outpatient appointment at St Crispin’s Hospital having been previously referred by Michael McMonagle who is the Occupational Therapist at the Head Injury Team of St Crispin’s Hospital. Reginald was experiencing diplopia.
+Reginald attends an Outpatient appointment at St Crispin’s Hospital having been previously referred by Michael McMonagle who is the Occupational Therapist at the Head Injury Team of St Crispin’s Hospital. Reginald was experiencing diplopia.
 
 ## The Outpatient Encounter ##
 
