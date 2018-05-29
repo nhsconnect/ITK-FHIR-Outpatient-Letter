@@ -1,6 +1,6 @@
 entries:
-- title: ITK FHIR Outpatient-Letter 
-  product: ITK FHIR Outpatient-Letter
+- title: ITK3 FHIR Outpatient-Letter 
+  product: ITK3 FHIR Outpatient-Letter
   version: 2.2.0-alpha
   levels: one
   folders:
