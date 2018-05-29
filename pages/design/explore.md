@@ -26,7 +26,7 @@ This section gives details of the document profiles and associated transport and
 
 ## FHIR Conformance ##
 
-- SHOULD declare a Conformance identifying the list of profiles and message bundles supported.
+- SHOULD declare a Conformance identifying the list of profiles and Message Bundles supported.
 
 
 
