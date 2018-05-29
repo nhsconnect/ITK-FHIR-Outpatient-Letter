@@ -10,7 +10,7 @@ summary: "Gives information about the Examination findings section"
 {% include custom/section.warnbanner.html %}
 
 ## Examination Findings Section Content##
-The Examination findings  section carries about the examination and any findings. Elements should be formatted as sub headings in any HTML sent.
+The Examination findings  section carries about the examination and any findings. Elements should be formatted as subheadings in any HTML sent.
 
 <table style="width:100%;max-width: 100%;">
 	<thead>

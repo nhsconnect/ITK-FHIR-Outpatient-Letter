@@ -10,7 +10,7 @@ summary: "Gives information about the Problems and issues section"
 {% include custom/section.warnbanner.html %}
 
 ## Problems and Issues Section Content##
-The Problems and issues section carries information about problems and issues. Elements should be formatted as sub headings in any HTML sent.
+The Problems and issues section carries information about problems and issues. Elements should be formatted as subheadings in any HTML sent.
 
 <table style="width:100%;max-width: 100%;">
 	<thead>
