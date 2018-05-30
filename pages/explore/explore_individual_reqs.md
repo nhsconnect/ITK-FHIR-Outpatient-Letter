@@ -43,6 +43,7 @@ The Individual requirements section carries information about the individual req
    <td>0 to 1</td>
    <td>required</td>
    <td>Information volunteered by the person or their representative or carer, or known about locally. Text or coded text (SNOMED CT), constrained as specified in SCCI1605.Accessible Information standard (accessible information - communications support, accessible information - requires communications professional, accessible information - requires specific contact method, accessible information - requires specific information format).
+**Note: There is currently no support for this information to be coded in the FHIR Profiles and therefore this information should be seen as a place holder for future use**
 <ul>
 <li>
 Personal Preferences subset - https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/225</li>
