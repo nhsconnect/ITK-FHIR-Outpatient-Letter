@@ -20,7 +20,7 @@ The Outpatient Encounter carried in the [Encounter Resource](https://fhir.nhs.uk
 
 - Patient - **Ms. Agatha Crtichard** - [Patient Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1)
 - Consultant Gastroenterologist (Document author) - **Dr. Ruth Jones** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
-- IBD specialist nurse - **Mrs. N Bryant** - - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- IBD specialist nurse - **Mrs. N Bryant** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
 - Patient's GP (Document recipient) - **Dr  C. O’Reilly** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
 
 ## Named Organisations ##

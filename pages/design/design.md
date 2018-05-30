@@ -13,12 +13,12 @@ summary: Describes components of a design & build of an ITK3 Messaging Solution 
 
 The Design & Build section details items that will be useful when designing and building an ITK3 messaging solution.
 
-The subsections provide information, for example:
-
+The subsections provide information about:
+.
 - How the resources are linked
 - How attachments are used
 - Guidance on constructing and rendering the narrative of a document
-- How to construct the list for coded clinical resources
+- How to construct the list for coded clinical resources.
 
 
 
