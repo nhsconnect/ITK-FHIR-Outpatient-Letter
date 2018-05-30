@@ -11,7 +11,7 @@ summary: "The Exchange Patterns introduce the messaging and documents."
 
 ## Exchange Patterns ##
 
-This section has been included to show the types of exchange patterns and how these ways of exchanging FHIR resources relates to Information Sharing Patterns.
+This section has been included to show the types of exchange patterns and how these ways of exchanging FHIR Resources relates to Information Sharing Patterns.
 
 The exchange patterns are complimentary, each having it's strengths and weaknesses. The best solution will probably to use a combination of pattern.
 

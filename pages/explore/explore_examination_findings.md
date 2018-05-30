@@ -61,7 +61,7 @@ The Examination findings  section carries about the examination and any findings
 
 ## Coded Resources ##
 
-This text section should be linked to the following FHIR Resources to provide the textual information in a coded format. See constructing coded clinical structures 
+This text section should be linked to the following FHIR Resources to provide the textual information in a coded format. See constructing clinical coded structures 
 
 
 - [Condition](build_conditions.html)

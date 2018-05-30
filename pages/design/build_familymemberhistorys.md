@@ -10,7 +10,7 @@ summary: "Constructing a family member history"
 {% include important.html content="The resources referenced in this section are the FHIR base resources which will be constrained by the profiles used by Outpatient Letter, the profiles should be referred to for the actually allowable structure and content." %}
 
 ## Overview ##
-This section details the design approach using FHIR resources to support the AoMRC heading model which use the FamilyMemberHistory resource. 
+This section details the design approach using FHIR Resources to support the AoMRC heading model which use the FamilyMemberHistory Resource. 
 
 
 ## Resources Used for Profile Design ##

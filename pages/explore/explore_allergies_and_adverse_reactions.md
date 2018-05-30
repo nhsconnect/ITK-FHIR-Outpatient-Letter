@@ -126,7 +126,7 @@ The Allergies and adverse reactions section carries information about the patien
 </table>
 
 ## How to Represent "No Known Allergies" ## 
-When there is a positive statement that the patient has "No Known Allergies" then no coded structure is sent and the section is sent with a text string within the narrative. When the text string within the narrative has been derived from code"d data it must match the text of the coded data: for example code = "716186003" Display = "No known allergy" narrative should be "No known allergy" 
+When there is a positive statement that the patient has "No known allergies" then no coded structure is sent and the section is sent with a text string within the narrative. When the text string within the narrative has been derived from code"d data it must match the text of the coded data: for example code = "716186003" Display = "No known allergy" narrative should be "No known allergy" 
 
 ##  Example Allergies and Adverse Reactions Sections ##
 
@@ -146,7 +146,7 @@ This text section should be linked to the following FHIR Resources to provide th
 - AllergyIntolerance
 
  
-See constructing coded clinical structures - [Allergy Lists](build_allergy_lists.html)
+See constructing clinical coded structures - [Allergy Lists](build_allergy_lists.html)
 
 
 
