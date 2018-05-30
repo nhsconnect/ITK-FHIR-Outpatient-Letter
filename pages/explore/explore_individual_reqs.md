@@ -42,7 +42,7 @@ The Individual requirements section carries information about the individual req
    <td>Individual requirements that a person has. These may be communication, cultural, cognitive or mobility needs.</td>
    <td>0 to 1</td>
    <td>required</td>
-   <td>Information volunteered by the person or their representative or carer, or known about locally.Text or coded text (SNOMED CT), constrained as specified in SCCI1605.Accessible Information standard (accessible information - communications support, accessible information - requires communications professional, accessible information - requires specific contact method, accessible information - requires specific information format).
+   <td>Information volunteered by the person or their representative or carer, or known about locally. Text or coded text (SNOMED CT), constrained as specified in SCCI1605.Accessible Information standard (accessible information - communications support, accessible information - requires communications professional, accessible information - requires specific contact method, accessible information - requires specific information format).
 <ul>
 <li>
 Personal Preferences subset - https://dd4c.hscic.gov.uk/dd4c/publishedmetadatas/intid/225</li>
