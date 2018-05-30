@@ -14,7 +14,7 @@ Agatha attends an Outpatient appointment at St Crispin’s Hospital having been 
 
 ## The Outpatient Encounter ##
 
-The Outpatient encounter carried in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
+The Outpatient Encounter carried in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
 
 ## Named Participants ##
 
@@ -28,7 +28,7 @@ The Outpatient encounter carried in the [Encounter Resource](https://fhir.nhs.uk
 - Patient's GP Practice - **Canvas Health Centre** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
 - Hospital - **St Crispin’s Hospital** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
 
-During the Outpatients encounter Ruth performs a Rigid sigmoidoscopy with the assistance of nurse Bryant to the limit of view at 20cm. Which, shows inflamed and ulcerated mucosa with contact bleeding to about 15cm. Proximally appears to improve. The abdomen was found to be soft but mainly tender in the left iliac fossa. There was no guarding or rebound and bowel sounds normal. 
+During the Outpatients Encounter Ruth performs a Rigid sigmoidoscopy with the assistance of nurse Bryant to the limit of view at 20cm. Which, shows inflamed and ulcerated mucosa with contact bleeding to about 15cm. Proximally appears to improve. The abdomen was found to be soft but mainly tender in the left iliac fossa. There was no guarding or rebound and bowel sounds normal. 
 
 Ruth findings suggest IBD. She changes Agatha's medication and wants the treatment to  commence today pending further investigation. She requests that a flexible sigmoidoscopy is done on an urgent basis. FBC, U&E, LFT and CRP are to be measured. Agatha is asked to provide Stool samples and given the forms and instructions how to do this.
 

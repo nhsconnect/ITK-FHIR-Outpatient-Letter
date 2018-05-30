@@ -18,7 +18,7 @@ Karen and her mother have been intermittently tearful and upset given news of di
 
 ## The Outpatient Encounter ##
 
-The Outpatient encounter carried in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
+The Outpatient Encounter carried in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
 
 ## Named Participants ##
 
@@ -35,7 +35,7 @@ The Outpatient encounter carried in the [Encounter Resource](https://fhir.nhs.uk
 - Patient's GP Practice - **Canvas Health Centre** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
 - Hospital - **St Crispin’s Hospital** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
 
-During the Outpatient encounter Margaret is very clear that she wishes to have as much detail as possible and asked about her prognosis. She does not wish to be resuscitated in the event of a cardio respiratory arrest. 
+During the Outpatient Encounter Margaret is very clear that she wishes to have as much detail as possible and asked about her prognosis. She does not wish to be resuscitated in the event of a cardio respiratory arrest. 
 
 Doris discusses with Margaret and her daughter the benefit of being able to do more through the day and having better psychological well-being when pain is better controlled. She has explained how they would use long acting Morphine preparation along with Oramorph to get control of background as well as breakthrough cancer pain. Given the degree of tenderness around the subcutaneous nodule on the right upper quadrant, they discussed that radiotherapy may be helpful with the pain.
 

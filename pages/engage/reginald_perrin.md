@@ -14,7 +14,7 @@ Reginald attends an Outpatient appointment at St Crispin’s Hospital having bee
 
 ## The Outpatient Encounter ##
 
-The Outpatient encounter carried in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
+The Outpatient Encounter carried in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
 
 ## Named Participants ##
 
@@ -28,7 +28,7 @@ The Outpatient encounter carried in the [Encounter Resource](https://fhir.nhs.uk
 - Hospital - **St Crispin’s Hospital** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
 
 
-During the Outpatient encounter Robert diagnoses Reginald with Right hypertropia and fits a prism to his glasses to relieve it.
+During the Outpatient Encounter Robert diagnoses Reginald with Right hypertropia and fits a prism to his glasses to relieve it.
 He refers Reginald to an ophthalmologist. He also advises him to inform the DVLA regarding the diplopia and fresnel prism. 
 
 

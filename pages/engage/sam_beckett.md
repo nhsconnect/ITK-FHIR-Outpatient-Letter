@@ -14,7 +14,7 @@ Sam who is a Polish national attends an Outpatient appointment at St Crispin’s
 
 ## The Outpatient Encounter ##
 
-The Outpatient encounter carried in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
+The Outpatient Encounter carried in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
 
 ## Named Participants ##
 
@@ -29,7 +29,7 @@ The Outpatient encounter carried in the [Encounter Resource](https://fhir.nhs.uk
 - Patient's GP Practice - **Canvas Health Centre** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
 - Hospital - **St Crispin’s Hospital** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
 
-During the Outpatient encounter Dr. Shauna O’Casey notes that Sam is a Polish national and speaks little English. He examines her arm and notes that there are no skin lesions to the body other than left forearm. She has a 3x2cm scaly lesion which is centrally ulcerated. There was no evidence of left axillary or cervical node involvement. She is warned about the risk of infection, bleeding, re-operation, scarring, wound dehiscence and the need for dressings. This is important as Sam is allergic Penicillin which causes nausea and vomiting. She understands this and is happy to be added to the waiting list for a excisional biopsy of lesion and direct closure on left forearm by Dr. Shauna O’Casey. 
+During the Outpatient Encounter Dr. Shauna O’Casey notes that Sam is a Polish national and speaks little English. He examines her arm and notes that there are no skin lesions to the body other than left forearm. She has a 3x2cm scaly lesion which is centrally ulcerated. There was no evidence of left axillary or cervical node involvement. She is warned about the risk of infection, bleeding, re-operation, scarring, wound dehiscence and the need for dressings. This is important as Sam is allergic Penicillin which causes nausea and vomiting. She understands this and is happy to be added to the waiting list for a excisional biopsy of lesion and direct closure on left forearm by Dr. Shauna O’Casey. 
 
 ## Example Instance of Scenario ##
 

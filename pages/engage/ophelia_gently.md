@@ -14,7 +14,7 @@ Miss Gently was referred to the rheumatology Outpatient clinic by her GP due to 
 
 ## The Outpatient Encounter ##
 
-The Outpatient encounter carried in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
+The Outpatient Encounter carried in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
 
 ## Named Participants ##
 
