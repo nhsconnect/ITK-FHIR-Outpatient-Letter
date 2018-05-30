@@ -54,7 +54,10 @@ The Problems and issues section carries information about problems and issues. E
 
 ## Coded Resources ##
 
-The ITK3 FHIR Outpatient Letter does not currently support coded coded problems and issues information.
+This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
+
+
+- The ITK3 FHIR Outpatient Letter does not currently support coded coded problems and issues information.
 
 
 
