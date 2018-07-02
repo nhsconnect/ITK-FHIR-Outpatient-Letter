@@ -10,7 +10,7 @@ summary: "Gives information about the Family history section"
 {% include custom/section.warnbanner.html %}
 
 ## Family History Section Content##
-The Family history section carries details of any family history. Elements should be formatted as subheadings in any HTML sent.
+The Family history section carries details of any family history. PRSB Elements should be formatted as subheadings in any HTML sent.
  
 <table style="width:100%;max-width: 100%;">
 	<thead>

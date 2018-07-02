@@ -10,16 +10,15 @@ summary: "Gives information about the Examination findings section"
 {% include custom/section.warnbanner.html %}
 
 ## Examination Findings Section Content##
-The Examination findings  section carries about the examination and any findings. Elements should be formatted as subheadings in any HTML sent.
-
+The Examination findings  section carries about the examination and any findings. PRSB Elements should be formatted as subheadings in any HTML sent.
 <table style="width:100%;max-width: 100%;">
 	<thead>
 		<tr>
-			<th width="18%">Section</th>
-			<th width="30%">Description</th>
-			<th width="11%">Cardinality</th>
-			<th width="11%">MRO*</th>
-			<th width="30%">Values</th>
+			<th width="15%">Section</th>
+			<th width="35%">Description</th>
+			<th width="5%">Card.</th>
+			<th width="5%">MRO*</th>
+			<th width="40%">FHIR Target and Guidance</th>
 		</tr>
 	</thead>
  <tbody>
@@ -27,30 +26,33 @@ The Examination findings  section carries about the examination and any findings
    <td>Examination finding</td>
    <td>The record of findings from clinical examination.</td>
    <td>0 to 1</td>
-   <td>optional</td>
-   <td>&nbsp;</td>
+   <td>O</td>
+   <td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
   </tr>
 		<tr>
-			<th>Element</th>
+			<th>PRSB Element</th>
 			<th>Description</th>
-			<th>Cardinality</th>
+			<th>Card.</th>
 			<th>MRO*</th>
-			<th>Values</th>
+			<th>FHIR Target and Guidance</th>		
 		</tr>
   <tr>
    <td>Examination</td>
    <td>This could include site and must include laterality where applicable.</td>
    <td>0 to 1</td>
-   <td>optional</td>
-   <td>This is the record of the examinations undertaken during the appointment. Text or coded text (SNOMED CT).The examination performed, eg general appearance, vital signs, mental state, head and neck examination, oral examination, cardiovascular system, respiratory system, abdomen, genitourinary, nervous system, musculoskeletal system, skin.</td>
+   <td>O</td>
+   <td>Carried as text only, this is the record of the examinations undertaken during the appointment. The examination performed, eg general appearance, vital signs, mental state, head and neck examination, oral examination, cardiovascular system, respiratory system, abdomen, genitourinary, nervous system, musculoskeletal system, skin.</td>
   </tr>
   <tr>
    <td>Examination findings</td>
    <td>The record of findings from the examinations performed.</td>
    <td>0 to 1</td>
-   <td>optional</td>
-   <td>This is the record of clinically relevant findings from the examinations undertaken during the appointment. Text or coded text (SNOMED CT).</td>
+   <td>O</td>
+   <td>This is the record of clinically relevant findings from the examinations undertaken during the appointment. Text only.</td>
   </tr>
+		<tr>
+		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
+		</tr>
  </tbody>
 </table>
 
@@ -61,11 +63,10 @@ The Examination findings  section carries about the examination and any findings
 
 ## Coded Resources ##
 
-This text section should be linked to the following FHIR Resources to provide the textual information in a coded format. See constructing clinical coded structures 
+This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
+- The ITK3 FHIR Outpatient Letter does not currently support coded examination findings.
 
-- [Condition](build_conditions.html)
-- [Observation](build_observations.html)
 
 
 
