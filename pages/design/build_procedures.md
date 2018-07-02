@@ -20,6 +20,7 @@ The FHIR Resources are profiled to create the procedure list as follows:
 This Resource acts as a container for the procedures. The following is an example of the main elements used:
 
 - identifier - uniquely identifies this list of procedures (UUIDs)
+- code - the type of list (for example SNOMED CT concept for "requested procedures")
 - status - should always be "current"
 - mode - should always be "snapshot" 
 - subject - a reference to the patient whose procedure list this is
@@ -29,15 +30,69 @@ This Resource acts as a container for the procedures. The following is an exampl
 - entry - a reference to the Procedure Resource entry
 
 ## Procedure ##
-This Resource is used to record detailed information about a procedure. The following is a example of the elements that can be used: 
+This Resource is used to record detailed information about a procedure. The following is an example of the elements that can be used: 
 
 - identifier - uniquely identifies this procedure (UUIDs)
 - status - completed, aborted etc 
 - category - Classification of the procedure
 - code - identification of the procedure
+- bodySite - the body site of the procedure
+- complicationDetail - details of any intra-operative complications encountered during the procedure, arising during the patient’s stay in the recovery unit or directly attributable to the procedure
+- anestheticIssues - details of any adverse reaction to any anaesthetic agents including local anaesthesia. Problematic intubation, transfusion reaction, etc.
+- note - any further textual comment to clarify such as statement that information is partial or incomplete
 - performed - when procedure was performed
 - subject - the patient
 - outcome - the result of procedure
+
+## Procedure.code ##
+
+<table style="width:100%;max-width: 100%;">
+<tr>
+<td>71388002 | Procedure (procedure) | hierarcy AND  Procedure with explicit context (situation)</td></tr>
+<tr><td>SCTID: 129125009 [EXTENSIBLE]</td>
+</tr>
+</table>
+
+Terminology binding as a SNOMED Expression:
+<table style="width:100%;max-width: 100%;">
+<tr>
+<td>&lt;&lt;71388002 |Procedure|</td></tr>
+<tr>
+<td>&lt;&lt;129125009 |Procedure with explicit context|</td>
+</tr>
+</table>
+
+Procedure.code can carry combined bodySite expression:
+
+<table style="width:100%;max-width: 100%;">
+<tr>
+<td>Laterality only - 448243002 | external fixation of femur | :272741003 | laterality | = 7771000 | left |</td></tr></table>
+
+<table style="width:100%;max-width: 100%;">
+<tr>
+<td>Refined site and laterality  - 448243002 | external fixation of femur | :405813007 | procedure site - Direct | = 41111004 | bone structure of shaft of femur | , 272741003 | laterality | = 7771000 | left |</td></tr></table> 
+
+## Procedure.bodySite ##
+
+<table style="width:100%;max-width: 100%;">
+<tr>
+<td>&lt;&lt;442083009 |anatomical or acquired body structure|</td></tr></table> 
+
+Note: that this includes the following two sub-hierarchies
+- 91723000 anatomical structure
+- 280115004 acquired body structure
+
+So, an alternative is only:
+- 91723000 anatomical structure
+
+## Procedure.complication ##
+References the condition resource.
+
+## Procedure.anestheticIssues ##
+References the condition resource.
+
+## Procedure.note ##
+Any further textual comment to clarify such as statement that information is partial or incomplete. <b>MUST</b> be repeated in the FHIR element <b>Composition.section.text</b>.
 
 ## How the Procedure List is Constructed ##
 The Procedure list is constructed as a single list. The diagram below shows the Resources used and relationships between the Resources.
@@ -46,7 +101,7 @@ The Procedure list is constructed as a single list. The diagram below shows the 
 
 ## Procedure List Item Example ##
 
-Example to show an procedure list
+Example to show a procedure list
 
 **Procedure List**
 
