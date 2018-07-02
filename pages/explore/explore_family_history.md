@@ -27,22 +27,22 @@ The Family history section carries details of any family history. PRSB Elements 
    <td>Family history</td>
    <td>Information on illness in family relations relevant to the health or care of the patient.</td>
    <td>0 to 1</td>
-   <td>optional</td>
-   <td>&nbsp;</td>
+   <td>O</td>
+	<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
   </tr>
 		<tr>
-			<th>Element</th>
+			<th>PRSB Element</th>
 			<th>Description</th>
-			<th>Cardinality</th>
+			<th>Card.</th>
 			<th>MRO*</th>
-			<th>Values</th>
+			<th>FHIR Target and Guidance</th>		
 		</tr>
   <tr>
    <td>Family history</td>
    <td>The record of relevant illness in family relations deemed to be significant to the care or health of the patient, including mental illness and suicide, genetic information etc.</td>
    <td>0 to 1</td>
-   <td>optional</td>
-   <td>The record of relevant illnesses in family relations as volunteered by the patient or their carer or representative. Text and/or coded text (SNOMED CT). 999000771000000106 | Family history simple reference set (foundation metadata concept) |</td>
+   <td>O</td>
+   <td>The record of relevant illnesses in family relations as volunteered by the patient or their carer or representative. Text only.</td>
   </tr>
  </tbody>
 </table>
@@ -53,9 +53,10 @@ The Family history section carries details of any family history. PRSB Elements 
 
 ## Coded Resources ##
 
+
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- [FamilyMemberHistory](build_familymemberhistorys.html)
+- The ITK3 FHIR Outpatient Letter does not currently support coded family history.
 
 
 
