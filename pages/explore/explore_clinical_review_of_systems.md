@@ -27,24 +27,27 @@ The Clinical review of systems section carries a narrative summary of the inform
    <td>Clinical review of systems</td>
    <td>Information gathered on symptoms related to physiological systems.</td>
    <td>0 to 1</td>
-   <td>optional</td>
-   <td>&nbsp;</td>
+   <td>O</td>
+  		    <td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
   </tr>
 		<tr>
-			<th>Element</th>
+			<th>PRSB Element</th>
 			<th>Description</th>
-			<th>Cardinality</th>
+			<th>Card.</th>
 			<th>MRO*</th>
-			<th>Values</th>
+			<th>FHIR Target and Guidance</th>		
 		</tr>
   <tr>
    <td>Clinical review of systems</td>
    <td>The clinical review of systems. The record of clinical information gathered in responses to questions to the patient about general symptoms from various physiological systems, including food intake (increasing/decreasing) weight change, swallowing difficulties etc.</td>
    <td>0 to 1</td>
-   <td>optional</td>
-   <td>This is the record of the review of systems as volunteered by the patient or their representative or carer. Text or coded text (SNOMED CT).</td>
+   <td>O</td>
+   <td>This is the record of the review of systems as volunteered by the patient or their representative or carer. Text only.</td>
   </tr>
  </tbody>
+		<tr>
+		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
+		</tr>
 </table>
 
 ##  Example Clinical Review of Systems Section ##
