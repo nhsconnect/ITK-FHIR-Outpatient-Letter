@@ -16,37 +16,41 @@ The Clinical summary section carries a narrative summary of the episode. Where p
 <table style="width:100%;max-width: 100%;">
 	<thead>
 		<tr>
-			<th width="18%">Section</th>
-			<th width="30%">Description</th>
-			<th width="11%">Cardinality</th>
-			<th width="11%">MRO*</th>
-			<th width="30%">Values</th>
+			<th width="15%">Section</th>
+			<th width="35%">Description</th>
+			<th width="5%">Card.</th>
+			<th width="5%">MRO*</th>
+			<th width="40%">FHIR Target and Guidance</th>
 		</tr>
 	</thead>
- <tbody>
-  <tr>
-   <td>Clinical summary</td>
-   <td>A brief description of the encounter.</td>
-   <td>1 only</td>
-   <td>mandatory</td>
-   <td>&nbsp;</td>
-  </tr>
+	<tbody>
 		<tr>
-			<th>Element</th>
-			<th>Description</th>
-			<th>Cardinality</th>
-			<th>MRO*</th>
-			<th>Values</th>
+			<td>Clinical summary</td>
+			<td>A brief description of the encounter.</td>
+			<td>1 only</td>
+			<td>M</td>
+		    <td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
 		</tr>
-  <tr>
-   <td>Clinical summary</td>
-   <td>Summary of the encounter. Where possible, very brief. This may include interpretation of findings and results; differential diagnoses, opinion and specific action(s). Planned actions will be recorded under 'plan'.</td>
-   <td>1 only</td>
-   <td>mandatory</td>
-   <td>Free text</td>
-  </tr>
- </tbody>
+		<tr>
+			<th>PRSB Element</th>
+			<th>Description</th>
+			<th>Card.</th>
+			<th>MRO*</th>
+			<th>FHIR Target and Guidance</th>		
+		</tr>
+		<tr>
+			<td>Clinical summary</td>
+			<td>Summary of the encounter. Where possible, very brief. This may include interpretation of findings and results; differential diagnoses, opinion and specific action(s). Planned actions will be recorded under 'plan'.</td>
+			<td>1 only</td>
+			<td>M</td>
+			<td>Free text</td>
+		</tr>
+		<tr>
+		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
+		</tr>
+	</tbody>
 </table>
+
 
 
 ##  Example Clinical Summary Section ##
