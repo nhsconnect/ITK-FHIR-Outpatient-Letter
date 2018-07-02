@@ -56,7 +56,7 @@ The Attendance details section carries information about the patient's attendanc
 <li>First telephone or telemedicine consultation</li>
 <li>Follow-up telephone or telemedicine consultation</li>
 </ul>
-This should also be carried in the FHIR element <b>Encounter.type</b> and as this is an example ValueSet the <b>Encounter.type.Coding.system</b> should contain the value "https://www.datadictionary.nhs.uk". </b>
+This should also be carried in the FHIR element <b>Encounter.type</b> and as this is an example ValueSet the <b>Encounter.type.Coding.system</b> should contain the value "https://www.datadictionary.nhs.uk".
 </td>
   </tr>
   <tr> 
@@ -142,7 +142,10 @@ This should also be carried in the FHIR element <b>Encounter.type</b> and as thi
    <td>This records the outcome of an Out-Patient Attendance</td>
    <td>0 to 1</td>
    <td>R</td>
-   <td>Text only derived from the NHS Data DictionaryNational Codes:1 Discharged from CONSULTANT's care (last attendance)2 Another APPOINTMENT given3 APPOINTMENT to be made at a later date</td>
+   <td>Text only derived from the NHS Data DictionaryNational Codes:
+<ul><li>1 - Discharged from CONSULTANT's care (last attendance)</li>
+<li>2 - Another APPOINTMENT given</li>
+<li>3 APPOINTMENT to be made at a later date.</li></ul></td>
   </tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
