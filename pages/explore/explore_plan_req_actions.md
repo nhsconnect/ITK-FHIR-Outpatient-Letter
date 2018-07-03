@@ -9,6 +9,8 @@ summary: "Gives information about the Plan and requested actions section"
 
 {% include custom/section.warnbanner.html %}
 
+The Plan and requested actions section carries information about planned investigations, procedures and treatment, and whether this plan has been agreed with the patient or their legitimate representative. PRSB Elements should be formatted as subheadings in any HTML sent.
+
 <table style="width:100%;max-width: 100%;">
 	<thead>
 		<tr>
