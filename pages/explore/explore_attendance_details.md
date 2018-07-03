@@ -51,10 +51,10 @@ The Attendance details section carries information about the patient's attendanc
    <td>O</td>
    <td>Text. Contact type may come from those recorded on the local PAS.NHS Data dictionary First attendance. 
 <ul>
-<li>First attendance -  face-to-face</li>
-<li>Follow-up attendance -  face-to-face</li>
-<li>First telephone or telemedicine consultation</li>
-<li>Follow-up telephone or telemedicine consultation</li>
+<li>1<&nbsp>	First attendance face to face</li>
+<li>2<&nbsp>	Follow-up attendance face to face</li>
+<li>3<&nbsp>	First telephone or telemedicine consultation</li>
+<li>4<&nbsp>	Follow-up telephone or telemedicine consultation</li>
 </ul>
 This should also be carried in the FHIR element <b>Encounter.type</b> and as this is an example ValueSet the <b>Encounter.type.Coding.system</b> should contain the value "https://www.datadictionary.nhs.uk".
 </td>
