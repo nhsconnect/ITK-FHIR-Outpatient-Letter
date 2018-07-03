@@ -22,6 +22,7 @@ The History section carries history related to the patient's previous care. Elem
 			<th width="40%">FHIR Target and Guidance</th>
 		</tr>
 	</thead>
+<tbody>
   <tr>
    <td>History</td>
    <td>Information relating to the development of each presenting complaint, and the patient's relevant health history.</td>
