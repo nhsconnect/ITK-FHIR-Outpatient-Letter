@@ -15,36 +15,39 @@ The Information and advice given section carries information and advice given. P
 <table style="width:100%;max-width: 100%;">
 	<thead>
 		<tr>
-			<th width="18%">Section</th>
-			<th width="30%">Description</th>
-			<th width="11%">Cardinality</th>
-			<th width="11%">MRO*</th>
-			<th width="30%">Values</th>
+			<th width="15%">Section</th>
+			<th width="35%">Description</th>
+			<th width="5%">Card.</th>
+			<th width="5%">MRO*</th>
+			<th width="40%">FHIR Target and Guidance</th>
 		</tr>
 	</thead>
  <tbody>
-  <tr>
-   <td>Information and advice given</td>
-   <td>A record of any information or advice given to the patient, carer or relevant third party.</td>
-   <td>0 to 1</td>
-   <td>required</td>
-   <td>&nbsp;</td>
-  </tr>
 		<tr>
-			<th>Element</th>
-			<th>Description</th>
-			<th>Cardinality</th>
-			<th>MRO*</th>
-			<th>Values</th>
+			<td>Information and advice given</td>
+			<td>A record of any information or advice given to the patient, carer or relevant third party.</td>
+			<td>0 to 1</td>
+			<td>R</td>
+				<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
 		</tr>
-  <tr>
-   <td>Information and advice given</td>
-   <td>This includes:-what information-to whom it was given.</td>
-   <td>0 to 1</td>
-   <td>required</td>
-   <td>Free text description of information and advice given and patient/carer comprehension</td>
-  </tr>
- </tbody>
+		<tr>
+			<th>PRSB Element</th>
+			<th>Description</th>
+			<th>Card.</th>
+			<th>MRO*</th>
+			<th>FHIR Target and Guidance</th>		
+		</tr>
+		<tr>
+			<td>Information and advice given</td>
+			<td>This includes:-what information-to whom it was given.</td>
+			<td>0 to 1</td>
+			<td>O</td>
+			<td>Free text description of information and advice given and patient/carer comprehension</td>
+		</tr>
+		<tr>
+		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
+		</tr>
+	</tbody>
 </table>
 
 
