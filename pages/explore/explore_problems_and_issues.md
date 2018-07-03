@@ -27,23 +27,26 @@ The Problems and issues section carries information about problems and issues. P
    <td>Problems and issues</td>
    <td>A summary of the problems that require investigation or treatment.</td>
    <td>0 to 1</td>
-   <td>required</td>
-   <td>&nbsp;</td>
+   <td>R</td>
+	<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
   </tr>
 		<tr>
-			<th>Element</th>
+			<th>PRSB Element</th>
 			<th>Description</th>
-			<th>Cardinality</th>
+			<th>Card.</th>
 			<th>MRO*</th>
-			<th>Values</th>
+			<th>FHIR Target and Guidance</th>		
 		</tr>
   <tr>
    <td>Problems and issue</td>
    <td>Summary of problems that require investigation or treatment. This would include significant examination findings, symptoms and signs, which are likely to have relevance and are not a diagnosis.</td>
    <td>0 to 1</td>
-   <td>required</td>
+   <td>R</td>
    <td>Text. The problems and issues heading is for the clinician or healthcare professional's recording of medical problems and issues.</td>
   </tr>
+		<tr>
+		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
+		</tr>
  </tbody>
 </table>
 

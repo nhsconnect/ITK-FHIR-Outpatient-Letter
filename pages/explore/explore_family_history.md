@@ -44,6 +44,9 @@ The Family history section carries details of any family history. PRSB Elements 
    <td>O</td>
    <td>The record of relevant illnesses in family relations as volunteered by the patient or their carer or representative. Text only.</td>
   </tr>
+		<tr>
+		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
+		</tr>
  </tbody>
 </table>
 
