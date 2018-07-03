@@ -123,7 +123,6 @@ This should also be carried in the FHIR element <b>Encounter.type</b> and as thi
 			<li><b>PractitionerRole.code</b></li>
 			<li><b>PractitionerRole.identifier</b></li></ul></td>
   </tr>
-  </tr>
   <tr>
    <td>Person accompanying patient</td>
    <td>Identify, where clinically relevant, others accompanying the patient, eg relative, friend, informal carer, advocate. If the patient was not present, was an authorised representative present? Includes: Name, Relationship, Role (patient advocate)</td>
@@ -145,7 +144,7 @@ This should also be carried in the FHIR element <b>Encounter.type</b> and as thi
    <td>Text only derived from the NHS Data DictionaryNational Codes:
 <ul><li>1 - Discharged from CONSULTANT's care (last attendance)</li>
 <li>2 - Another APPOINTMENT given</li>
-<li>3 APPOINTMENT to be made at a later date.</li></ul></td>
+<li>3 - APPOINTMENT to be made at a later date.</li></ul></td>
   </tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
