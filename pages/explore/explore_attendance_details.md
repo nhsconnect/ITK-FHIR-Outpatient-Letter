@@ -42,7 +42,7 @@ The Attendance details section carries information about the patient's attendanc
    <td>Date and time of the appointment, contact or attendance.</td>
    <td>1 only</td>
    <td>M</td>
-   <td>The date and time of appointment as recorded on the Patient Administration System (PAS) as text and carried in the <b>Encounter.period.start</b> and <b>Encounter.period.end</b>FHIR element.</td>
+   <td>The date and time of appointment as recorded on the Patient Administration System (PAS) as text and carried in the <b>Encounter.period.start</b> and <b>Encounter.period.end</b> FHIR element.</td>
   </tr>
   <tr>
    <td>Contact type</td>
@@ -141,10 +141,7 @@ This should also be carried in the FHIR element <b>Encounter.type</b> and as thi
    <td>This records the outcome of an Out-Patient Attendance</td>
    <td>0 to 1</td>
    <td>R</td>
-   <td>Text only derived from the NHS Data DictionaryNational Codes:
-<ul><li>1 - Discharged from CONSULTANT's care (last attendance)</li>
-<li>2 - Another APPOINTMENT given</li>
-<li>3 - APPOINTMENT to be made at a later date.</li></ul></td>
+   <td>Text and carried in the FHIR extension <b>CareConnect-OutcomeOfAttendance-1</b> of the ITK3 Encounter Profile CareConnect-ITK-Encounter-1.</td>
   </tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
