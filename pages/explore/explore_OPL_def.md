@@ -7,7 +7,7 @@ permalink: explore_OPL_def.html
 summary: "Outpatient Letter Message Definition"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Outpatient Letter Definition Overview ##
 

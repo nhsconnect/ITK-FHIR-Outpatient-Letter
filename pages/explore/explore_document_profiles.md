@@ -7,7 +7,7 @@ permalink: explore_document_profiles.html
 summary: "ITK3 Outpatient Letter FHIR Document profile"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 
 ## ITK3 Outpatient Letter FHIR Document Bundle ##

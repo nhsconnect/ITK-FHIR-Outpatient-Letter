@@ -7,7 +7,7 @@ permalink: engage_mary_jones.html
 summary: "Example scenario - Mary Jones Outpatient Letter"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Background ##
 Mary attends an Outpatient appointment at St Crispin’s Hospital with her mother, for scheduled review of tonic-clonic seizures and gastro-oesophageal reflux. Mary has been well. However she is now having on average four tonic-clonic seizures a day. Her mother has had to give her rectal diazepam on two occasions but she has not needed to go to hospital. She had a PEG inserted in April 2017 and her reflux has reduced considerably since then. Mary has increasing spasticity of right hip and more frequent tonic-clonic convulsions. Mary started at Greenacre School in September. She enjoys it and the teachers are pleased with her progress.  Her mother has been bringing her to school by car, but this is becoming an increasing problem, as due to recent changes at work she now has to start work at 8:30 AM. Unfortunately Mary is not eligible for free school transport until she is five years old. The home-school liaison teacher is trying to come to an agreement with the local authority to enable Mary to use school transport.  The teacher for visual impairment has seen her in school and recommended that she use large print books and a magnifying glass.

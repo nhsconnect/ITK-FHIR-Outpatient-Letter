@@ -7,7 +7,7 @@ permalink: explore_interactions.html
 summary: "ITK3 Outpatient Letter Interactions"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 
 ## ITK3 Outpatient Letter Interactions Overview ##

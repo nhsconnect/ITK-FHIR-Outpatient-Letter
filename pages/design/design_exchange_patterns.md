@@ -7,7 +7,7 @@ permalink: design_exchange_patterns.html
 summary: "The Exchange Patterns introduce the messaging and documents."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Exchange Patterns ##
 

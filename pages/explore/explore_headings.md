@@ -7,7 +7,7 @@ permalink: explore_headings.html
 summary: "Overview of the Outpatient Letter headings"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Overview ##
 

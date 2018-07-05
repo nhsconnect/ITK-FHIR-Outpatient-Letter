@@ -7,7 +7,7 @@ permalink: engage_margaret_walker.html
 summary: "Example scenario - Margaret Walker Outpatient Letter"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Background ##
 Margaret attends an appointment at St Crispin’s Hospital palliative care Outpatient clinic accompanied by her daughter Karen. Margaret was referred for review of symptom control.
