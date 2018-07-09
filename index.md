@@ -8,6 +8,8 @@ toc: false
 summary: A brief introduction to getting started with the ITK3 Outpatient Letter.
 ---
 
+{% include custom/versions_warning.html %}
+
 ## Introduction ##
 
 The Transfer of Care Outpatient Letter  Specification supports the following care communications:
