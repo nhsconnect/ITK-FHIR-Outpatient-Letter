@@ -113,7 +113,7 @@ This table should be used in conjunction with the section on [constructing clini
 
 ### Allergy to Penicillin ###
 
-<script src="https://gist.github.com/IOPS-DEV/c02f9626ad71d2230cd51ded6d031bb2.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/ab7fb2c2d8b6f15ae332fa4fdddc9b01.js"></script>
 
 ### "No known allergy" ###
 
