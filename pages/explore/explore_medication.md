@@ -10,7 +10,7 @@ summary: "Gives information about the Medications and medical devices section"
 {% include custom/section.warnbanner.html %}
 
 ## Medications and Medical Devices Section Content ##
-The Medications and medical devices section carries information about the patient's medication. PRSB Elements should be formatted as subheadings in any HTML sent:
+The Medications and medical devices section carries information about the patient's medication. PRSB Elements should be formatted as subheadings in any HTML sent. For more information on constructing medication lists see [constructing clinical coded structures](build_medication_lists.html). 
 
 <table style="width:100%;max-width: 100%;">
 	<thead>
@@ -125,6 +125,7 @@ Implementation guidance: FHIR element <b>MedicationStatement.additionalInstructi
 Any Duration instructions in the FHIR element <b>MedicationStatement.effective[x].effectivePeriod</b> or in FHIR element <b>MedicationStatement.note</b> as a degrade to text.
 
 </td>
+		</tr>
 		<tr>
 			<td> <font color="red">Structured dose amount cluster</font></td>
 			<td> <font color="red">A structural representation of dose amount.  Comment: e.g. 20mg or 2 tablets This element will generally only be used when persisting data within systems with 'Parsable dose directions' being used to exchange the same information between systems.</font></td>
@@ -316,8 +317,6 @@ Any Duration instructions in the FHIR element <b>MedicationStatement.effective[x
 		</tr>
 	</tbody>
 </table>
-
-
 
 
 ## Example Medications and Medical Devices Section ##
