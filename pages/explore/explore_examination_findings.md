@@ -9,7 +9,7 @@ summary: "Gives information about the Examination findings section"
 
 {% include custom/section.warnbanner.html %}
 
-## Examination Findings Section Content##
+## Examination Findings Section content ##
 The Examination findings  section carries about the examination and any findings. PRSB Elements should be formatted as subheadings in any HTML sent.
 <table style="width:100%;max-width: 100%;">
 	<thead>

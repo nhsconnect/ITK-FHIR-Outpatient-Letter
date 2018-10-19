@@ -9,7 +9,7 @@ summary: "Gives information about the Relevant clinical risk factors section"
 
 {% include custom/section.warnbanner.html %}
 
-## Relevant Clinical Risk Factors Section Content##
+## Relevant Clinical Risk Factors Section content ##
 The Relevant clinical risk factors section carries information about relevant clinical risk factors for the patient. PRSB Elements should be formatted as subheadings in any HTML sent.
 
 

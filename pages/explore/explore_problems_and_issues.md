@@ -9,7 +9,7 @@ summary: "Gives information about the Problems and issues section"
 
 {% include custom/section.warnbanner.html %}
 
-## Problems and Issues Section Content##
+## Problems and Issues Section content ##
 The Problems and issues section carries information about problems and issues. PRSB Elements should be formatted as subheadings in any HTML sent.
 
 <table style="width:100%;max-width: 100%;">
