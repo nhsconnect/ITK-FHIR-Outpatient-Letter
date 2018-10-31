@@ -52,6 +52,13 @@ The Medications and medical devices section carries information about the patien
 			<td>Text and a SNOMED CT concept carried in the CodeableConcept of the FHIR element <b>MedicationStatement.medication[x].<br/>medicationReference.Medication.Name</b>. See <a href="build_medication_lists.html#medicationcode">medication.code</a> for further guidance.</td>
 		</tr>
 		<tr>
+			<td>Quantity supplied</td>
+			<td>The quantity of the medication (eg tablets, inhalers, etc.) provided to the patient on discharge.  This may be dispensed by the pharmacy or on the ward.</td>
+			<td>0 to Many</td>
+			<td>O</td>
+			<td>Text</td>
+		</tr>
+		<tr>
 			<td>Form</td>
 			<td>Form of the medicinal substance e.g. capsules, tablets, liquid. Not normally required unless a specific form has been requested by the prescriber.  Comment: e.g. "Modified Release Capsules".</td>
 			<td>0 to 1</td>

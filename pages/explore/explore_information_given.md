@@ -41,7 +41,7 @@ The Information and advice given section carries information and advice given. P
 			<td>Information and advice given</td>
 			<td>This includes:- what information - to whom it was given.</td>
 			<td>0 to 1</td>
-			<td>O</td>
+			<td>R</td>
 			<td>Free text description of information and advice given and patient/carer comprehension</td>
 		</tr>
 		<tr>

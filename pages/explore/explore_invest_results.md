@@ -40,6 +40,12 @@ The Investigation results section carries information about investigation result
 			<th>FHIR Target and Guidance</th>		
 		</tr>
 		<tr>
+			<td>Investigation</td>
+			<td>The investigation performed</td>
+			<td>O</td>
+			<td>The procedure name in text and where supported a SNOMED CT concept from 71388002 Procedure (procedure) hierarchy or Procedure with explicit context (situation)129125009. Carried in the FHIR element <b>Procedure.code</b> See <a href="build_procedures#procedurecode.html">Constructing Procedure Lists (Procedure name)</a></td>
+		</tr>
+		<tr>
 			<td>Investigation result</td>
 			<td>For each investigation, the result of the investigation (this includes the result value, with unit of observation and reference interval where applicable and date, and plans for acting upon investigation results.</td>
 			<td>0 to many</td>

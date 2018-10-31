@@ -43,8 +43,8 @@ The document may be sent to any number of recipients, however all recipients sho
 		<tr>
 			<td>Name</td>
 			<td>If the communication is being sent to a named individual, then this is the name of the recipient, preferably in a structured format. An identifier for the individual, for example GMC code (for a GP), or an SDS identifier, a NHS Number (for a patient) will be sent alongside the name.</td>
-			<td>0 to 1</td>
-			<td>R</td>
+			<td>1 to 1</td>
+			<td>M</td>
 			<td>Names may be entered as the communication is being created or sourced from the hospital system. Patient names may be from the Patient Demographic Service. Text and carried in the FHIR element <b>Practitioner.name</b> or <b>Patient.name</b>. The identifier will be carried in the FHIR element <b>Practitioner.identifier</b> or <b>Patient.identifier.</b></td>
 		</tr>
 		<tr>
@@ -58,28 +58,28 @@ The document may be sent to any number of recipients, however all recipients sho
 			<td>Grade</td>
 			<td>The recipient's grade.</td>
 			<td>0 to 1</td>
-			<td>O</td>
+			<td>R</td>
 			<td>The grade of the recipient, if known by the sending institution, otherwise omitted. Text only</td>
 		</tr>
 		<tr>
 			<td>Organisation name</td>
 			<td>The name of the organisation the recipient is representing or the organisation named as the receiving organisation. An identifier for the organisation will be sent alongside the name.</td>
 			<td>0 to 1</td>
-			<td>O</td>
+			<td>R</td>
 			<td>Organisation name in text and carried in the FHIR element <b>Organization.name</b> and identifier (which <b>MUST NOT</b> be in carried in the text), taken from the Organisation Data Service (ODS)) and carried in the FHIR element <b>Organization.identifier</b></td>
 		</tr>
 		<tr>
 			<td>Team</td>
 			<td>Team that the recipient belongs to in the context of receiving this message, or the team acting as the recipient.</td>
 			<td>0 to 1</td>
-			<td>O</td>
+			<td>R</td>
 			<td>There are no national codes for teams, so this value would have to be agreed locally, and entered as free text only.</td>
 		</tr>
 		<tr>
 			<td>Relationship to subject</td>
 			<td>The relationship of the receiver to the patient, where the receiver has a personal relationship to the patient, for example, carer or parent</td>
 			<td>0 to 1</td>
-			<td>O</td>
+			<td>R</td>
 			<td>Personal relationships as documented in the NHS Data Dictionary Person Relationship Type (This value set is now retired carried as text and where possible mapped to the FHIR ValueSet <a href="http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype">relatedperson-relationshiptype</a> and carried a code in the FHIR element <b>RelatedPerson.relationship</b></td>
 		</tr>
 		<tr>

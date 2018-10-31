@@ -41,7 +41,7 @@ The Individual requirements section carries information about the individual req
 		<tr>
 			<td>Individual requirements</td>
 			<td>Individual requirements that a person has. These may be communication, cultural, cognitive or mobility needs.</td>
-			<td>0 to 1</td>
+			<td>0 to Many</td>
 			<td>R</td>
 			<td>Information volunteered by the person or their representative or known about locally. Text only constrained as specified in SCCI1605 Accessible Information standard (accessible information - communications support, accessible information - requires communications professional, accessible information - requires specific contact method, accessible information - requires specific information format).</td>
 		</tr>
