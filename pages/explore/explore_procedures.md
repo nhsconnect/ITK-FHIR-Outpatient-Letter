@@ -42,7 +42,7 @@ The Procedures section carries information about the procedures that have been p
 			<td>The therapeutic or diagnostic procedure performed.</td>
 			<td>1 only</td>
 			<td>R</td>
-			<td>The procedure name in text and where supported a SNOMED CT concept from 71388002 Procedure (procedure) hierarchy or Procedure with explicit context (situation)129125009. Carried in the FHIR element <b>Procedure.code</b> See <a href="build_procedures#procedurecode.html">Constructing Procedure Lists (Procedure name)</a></td>
+			<td>The procedure name in text and where supported a SNOMED CT concept from 71388002 Procedure (procedure) hierarchy or Procedure with explicit context (situation)129125009. Carried in the FHIR element <b>Procedure.code</b> See <a href="build_procedures.html#procedurecode">Constructing Procedure Lists (Procedure name)</a></td>
 		</tr>
 		<tr>
 			<td>Anatomical site</td>
