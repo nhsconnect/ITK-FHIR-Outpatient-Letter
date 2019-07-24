@@ -26,8 +26,8 @@ The Diagnoses section carries information about Diagnoses. PRSB Elements should 
 		<tr>
 			<td>Diagnoses</td>
 			<td>A list of the patient's diagnoses.</td>
-			<td>1 only</td>
-			<td>M</td>
+			<td>0..1</td>
+			<td>R</td>
 			<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
 		</tr>
 		<tr>
