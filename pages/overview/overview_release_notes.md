@@ -17,7 +17,12 @@ summary: Summary release notes of the versions released in ITK3 Outpatient Lette
 
 Inconsistencies of section headings between pages have been rectified.
 
-## 2.5.0-Release Candidate ##
+**Message Definition**
+
+- MessageDefinition reference has been updated to [ITK-OPL-MessageDefinition-4](https://fhir.nhs.uk/STU3/MessageDefinition/ITK-OPL-MessageDefinition-4).
+
+
+## 2.5.0-beta ##
 
 **General Page Issues**
 
