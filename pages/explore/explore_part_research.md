@@ -26,8 +26,8 @@ This is to flag participation in a clinical trial. PRSB Elements should be forma
 		<tr>
 			<td>Participation in research</td>
 			<td>The details of any research studies participated in.</td>
-			<td>&nbsp;</td>
-			<td>O</td>
+			<td>0..1</td>
+			<td>R</td>
 			<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
 		</tr>
 		<tr>
