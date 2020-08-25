@@ -6,6 +6,10 @@ sidebar: overview_sidebar
 permalink: overview_release_notes.html
 summary: Summary release notes of the versions released in ITK3 Outpatient Letter Implementation Guide
 ---
+## 2.7.0-public-beta ##
+
+- Corrected Examination finding example section title element to “Examination finding”
+
 ## 2.6.0-beta ##
 
 **Profiles**
