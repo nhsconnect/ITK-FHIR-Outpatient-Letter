@@ -9,6 +9,7 @@ summary: Summary release notes of the versions released in ITK3 Outpatient Lette
 ## 2.7.0-public-beta ##
 
 - Corrected Examination finding example section title element to “Examination finding”
+- Updated information about attachments.
 
 ## 2.6.0-beta ##
 
