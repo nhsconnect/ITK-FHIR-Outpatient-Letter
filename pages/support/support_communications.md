@@ -10,8 +10,8 @@ summary: "NHS Digital Interoperability Team communication channels used for the 
 
 
 
-For general enquires please send an email to the NHS Digital Interoperability Team Inbox at <a href="mailto:interoperabilityteam@nhs.net>">interoperabilityteam@nhs.net</a>.
-<br><br>
+For general enquires please send an email to the NHS Digital Interoperability Team Inbox at <a href="mailto:interoperabilityteam@nhs.net">interoperabilityteam@nhs.net</a>.
+
 
 
 
