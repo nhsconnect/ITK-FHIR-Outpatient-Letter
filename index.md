@@ -14,7 +14,7 @@ summary: A brief introduction to getting started with the ITK3 Outpatient Letter
 
 The Transfer of Care Outpatient Letter  Specification supports the following care communications:
 
-**Outpatient Letter Document** – An ITK3 FHIR Document containing Transfer of Care information between the hospital clinic and the GP and other relevant parties following a consultation in a clinic.
+**Outpatient Letter Document** – An ITK3 FHIR Document containing Transfer of Care information between the hospital clinic and the GP and other relevant parties following a consultation in a clinic. Not adopting this message type should only be considered where a procedure is conducted in an outpatient setting that generates a structured report which is an established means of GP communication.
    
 FHIR Messaging components specified within this site have been developed by NHS Digital and use some of the CareConnect profiles created in collaboration with the INTEROPen community. 
 
