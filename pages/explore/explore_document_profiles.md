@@ -40,8 +40,6 @@ The Bundle consists of the following FHIR Resource Profiles.
 
 **Note 1**: This attachment Profile must not be used to send an unstructured Transfer of Care document, its purpose is to allow an attachment to be included within a structured Transfer of Care document.		
 			
-For a complete definition of the Outpatient Letter document see the section on [message definitions.](explore_defs_overview.html)
-
 ## ITK3 Outpatient Letter FHIR Document Profile Referencing ##
 
 The diagram shows the referencing between the profiles in the bundle which make up the ITK3 Outpatient Letter FHIR Document.

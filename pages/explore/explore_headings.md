@@ -59,7 +59,7 @@ Implementers are advised to populate the Correspondence Document Type values for
 
 Implementers can choose the most appropriate option when selecting a correspondence care setting member from the Correspondence Care Setting type simple reference set (999000381000000107).  
 The title (of the document) held in the Composition profile should be formed from a concatenation of the human readable value for the Correspondence Care Setting and Correspondence Document Type. If a sender organisation wishes to deviate from this approach they should first discuss this with NHS Digital.  
-For illustration, the [coded example](https://developer.nhs.uk/apis/itk3tocoutpatientletter-2-8-0/engage_thomas_linacre.html) provided is already compliant with the outlined approach.
+For illustration, the [coded example](engage_thomas_linacre.html) provided is already compliant with the outlined approach.
  
 ## Headings Used By Outpatient Letter ##
 

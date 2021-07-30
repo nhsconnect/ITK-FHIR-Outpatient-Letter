@@ -55,16 +55,16 @@ entries:
         - title: Encounter
           url: /workflow_encounter.html
           output: web
-  - title: Message Definitions
-    url: /explore_message_definitions.html
-    output: web
-    folderitems:
-    - title: Overview
-      url: /explore_defs_overview.html
-      output: web
-    - title: Outpatient Letter
-      url: /explore_OPL_def.html
-      output: web 
+#  - title: Message Definitions
+#   url: /explore_message_definitions.html
+#    output: web
+#    folderitems:
+#   - title: Overview
+#      url: /explore_defs_overview.html
+#      output: web
+#    - title: Outpatient Letter
+#      url: /explore_OPL_def.html
+#      output: web 
   - title: Section Headings
     output: web,pdf
     folderitems:

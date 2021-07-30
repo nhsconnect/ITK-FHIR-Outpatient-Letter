@@ -21,9 +21,6 @@ This section gives details of the document profiles and associated transport and
 - SHALL implement ITK3 Sender and/or Receiver Responsibilities as per <a href="https://developer.nhs.uk/apis/itk3messagedistribution-2-9-0/explore_s_and_r.html" target="_blank">ITK3 Sender and Receiver Requirements</a>.
 - SHALL support the XML format for all NHS Digital document and message flows.
 
-## FHIR Conformance ##
-
-Systems SHOULD declare a Conformance using the FHIR Resource Capability Statement identifying the list of message definitions supported.
 
 
 
