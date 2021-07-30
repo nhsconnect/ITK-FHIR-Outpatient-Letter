@@ -1,7 +1,7 @@
 ---
 title: Document Profiles 
 keywords:  documents
-tags: [fhir,messaging,documents]
+tags: [fhir,messaging]
 sidebar: foundations_sidebar
 permalink: explore_document_profiles.html
 summary: "ITK3 Outpatient Letter FHIR Document profile"
